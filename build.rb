@@ -1,13 +1,16 @@
 require 'xcodeproj'
 require 'find'
 
-# Pull fresh version of WhisperKit and swift-transformers into temp folder
-deps_path = 'cocoa-whisper/deps'
-if Dir.exist?(deps_path)
-  %x{rm -rf #{deps_path}}
+# create new pod
+# %x{echo -e "iOS\nSwift\nYes\nNone\nNo" | pod lib create cocoa-whisper}
+
+# Pull fresh version of WhisperKit and swift-transformers into pod folder
+pod_name = 'cocoa-whisper'
+if Dir.exist?("#{pod_name}/WhisperKit")
+  %x{rm -rf #{pod_name}/WhisperKit}
 end
-Dir.mkdir(deps_path)
-Dir.chdir(deps_path) do
+# Dir.mkdir(deps_path)
+Dir.chdir(pod_name) do
   whisperkit_repo = "git@github.com:argmaxinc/WhisperKit.git"
   tf_repo = "git@github.com:huggingface/swift-transformers.git"
   %x{git clone #{whisperkit_repo}}
@@ -25,10 +28,10 @@ def remove_unless(path, items)
 end
 
 # Remove extraneous files from WhisperKit and swift-transformers deps
-remove_unless(deps_path + '/WhisperKit/', ['Sources'])
-remove_unless(deps_path + '/WhisperKit/Sources/', ['WhisperKit'])
-remove_unless(deps_path + '/swift-transformers/', ['Sources'])
-remove_unless(deps_path + '/swift-transformers/Sources/', ['Generation', 'Hub', 'Models', 'Tokenizers', 'TensorUtils'])
+remove_unless(pod_name + '/WhisperKit/', ['Sources'])
+remove_unless(pod_name + '/WhisperKit/Sources/', ['WhisperKit'])
+remove_unless(pod_name + '/swift-transformers/', ['Sources'])
+remove_unless(pod_name + '/swift-transformers/Sources/', ['Generation', 'Hub', 'Models', 'Tokenizers', 'TensorUtils'])
 
 # def remove_imports(path, imports)
 #   Dir.foreach(path) do |file|
@@ -65,8 +68,8 @@ end
 
 # Remove imports from WhisperKit and swift-transformers
 hf_imports = ['Hub', 'Tokenizers', 'TensorUtils', 'Generation', 'Models']
-remove_imports(deps_path + '/swift-transformers/Sources/', hf_imports)
-remove_imports(deps_path + '/WhisperKit/Sources/', hf_imports)
+remove_imports(pod_name + '/swift-transformers/Sources/', hf_imports)
+remove_imports(pod_name + '/WhisperKit/Sources/', hf_imports)
 # open project
 proj_path = './_Pods.xcodeproj'
 project = Xcodeproj::Project.open(proj_path)
@@ -77,9 +80,9 @@ target = project.targets.first
 
 # Create a new group under the main group, if necessary
 group = project.main_group.find_subpath('Development Pods', false)
-group = group.find_subpath('cocoa-whisper', false)
+group = group.find_subpath(pod_name, false)
 # find/create root deps group
-group = group.find_subpath('deps', true)
+# group = group.find_subpath('deps', true)
 # remove all files from deps group
 group.clear
 
@@ -100,7 +103,7 @@ def add_code(cur_dir, acc_path, group)
   end
 end
 
-add_code(deps_path, "", group)
+add_code(pod_name, "", group)
 
 # Save the project file
 project.save
