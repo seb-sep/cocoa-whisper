@@ -28,10 +28,10 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/59621473/cocoa-whisper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '17.0'
 
-  s.source_files = 'cocoa-whisper/Classes/**/*'
-  
+  s.source_files = 'cocoa-whisper/Classes/**/*.swift', 'cocoa-whisper/deps/**/*.swift'
+
   # s.resource_bundles = {
   #   'cocoa-whisper' => ['cocoa-whisper/Assets/*.png']
   # }

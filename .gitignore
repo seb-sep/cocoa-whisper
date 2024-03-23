@@ -34,3 +34,6 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 # Pods/
+
+cocoa-whisper/deps
+

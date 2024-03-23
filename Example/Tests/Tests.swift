@@ -1,5 +1,4 @@
 import XCTest
-import cocoa-whisper
 
 class Tests: XCTestCase {
     

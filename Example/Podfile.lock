@@ -1,0 +1,16 @@
+PODS:
+  - cocoa-whisper (0.1.0)
+
+DEPENDENCIES:
+  - cocoa-whisper (from `../`)
+
+EXTERNAL SOURCES:
+  cocoa-whisper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  cocoa-whisper: 9ad0f7f7070c93aa7042ea3c1ba10ad1d084eed2
+
+PODFILE CHECKSUM: 48e8ce7826e2267503289bdd7255c30abedafb47
+
+COCOAPODS: 1.14.3

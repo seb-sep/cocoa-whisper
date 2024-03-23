@@ -1,0 +1,6 @@
+framework module Pods_cocoa_whisper_Example {
+  umbrella header "Pods-cocoa-whisper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

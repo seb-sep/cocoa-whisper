@@ -1,0 +1,6 @@
+framework module cocoa_whisper {
+  umbrella header "cocoa-whisper-umbrella.h"
+
+  export *
+  module * { export * }
+}

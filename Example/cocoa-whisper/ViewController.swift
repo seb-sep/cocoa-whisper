@@ -8,6 +8,8 @@
 
 import UIKit
 
+import cocoa_whisper
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {

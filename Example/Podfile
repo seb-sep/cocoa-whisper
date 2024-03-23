@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '17.0'
 
 target 'cocoa-whisper_Example' do
   pod 'cocoa-whisper', :path => '../'
@@ -8,6 +8,6 @@ target 'cocoa-whisper_Example' do
   target 'cocoa-whisper_Tests' do
     inherit! :search_paths
 
-    
+
   end
 end

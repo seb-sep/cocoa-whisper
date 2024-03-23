@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import cocoa_whisper
+
+func foo() async {
+//    let pipe = try? await WhisperKit()
+//    foo()
+}
