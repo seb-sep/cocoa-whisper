@@ -7,54 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E034E005F35D688DC443AA69FAA391 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */; };
-		03C65604A0A65B92C7F5E5D0035F89AB /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641EC1FAFD71602E289A5940AEF5FB2 /* Hub.swift */; };
-		0A1E4D55CC47884AF6493A1BD8158984 /* LanguageModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */; };
-		0CD7CE583AEC7A9A1DF706E620C27BCC /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */; };
-		135927B63BCF607659E281C976816DCA /* LogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05B4E65BE72F10B0E4900F5C7B8927 /* LogitsWarper.swift */; };
-		188E862DECBDAE8C9E6AA61EC0F7E84D /* ResultWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3187F8DBF45C51137EC1076FD7FB0A2 /* ResultWriter.swift */; };
-		1D6C1CE0F3867E82F44BD0C2C9BB42F3 /* TemperatureLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC2786DCDCEB14CE17B526DBE86ACE /* TemperatureLogitsWarper.swift */; };
+		01B4924DDBE4B112D85EC8AFECFA5807 /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */; };
+		0768F77582D1929ECF87291DC0B46395 /* LanguageModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */; };
+		1059E4FA7E61678BB2F43C5275F214E7 /* TemperatureLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC2786DCDCEB14CE17B526DBE86ACE /* TemperatureLogitsWarper.swift */; };
+		12564F6F2CB74AD88361DA00E987C5B9 /* LogitsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F1E7AFE555DF71C141064329D7E79C /* LogitsProcessor.swift */; };
+		131DE9DBAFBAFAA889CE8F2055A33F09 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E479D6722F6019FA3AEAB6CC8A532 /* Downloader.swift */; };
+		1968997514974495A763503FBDFF6C0E /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641EC1FAFD71602E289A5940AEF5FB2 /* Hub.swift */; };
+		1B030E8A1C17B1EF10940A84FEB4DB0F /* cocoa-whisper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */; };
+		1F6DBCFB8354DDC3686D199C0967F97A /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1841527BD24A7A1B54B4F9C912F2DEA2 /* FeatureExtractor.swift */; };
+		232F34ED64941D4218E7863045BCBED5 /* PreTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F9A4401C4B2FBABABE4A720360911 /* PreTokenizer.swift */; };
+		27B00ED6A48BCF0F3D98722C19F75A6A /* HubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */; };
 		29565CA447F310696A58C70F736E77AF /* cocoa-whisper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9348D752B911291A512528C922712320 /* cocoa-whisper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44BC216DD98E9B6E395046BBC9170EBB /* _Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623209588FF81A22FFD6F60F53AD859B /* _Utils.swift */; };
-		527A682E8958586D43BAC226FB80D986 /* TokenLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415012EC6F1E3D984B0B450C1BB371F /* TokenLattice.swift */; };
+		2D8093B74A94AF9FF287475C2F965656 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */; };
+		32BF03EEB422E8D2DBA0254AA21E5D12 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77086854BDCDA8A50E35AF3944305B73 /* Models.swift */; };
+		35C795FC15D056A9D1E6B5745AD97AC9 /* SegmentSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0AC59501A4FADA42595367959F9E4CF /* SegmentSeeker.swift */; };
+		3EB40AAB1297D5EE9C96271D6B1CBCAE /* TokenSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE42676FFCDA905CE2E56CFA571774 /* TokenSampler.swift */; };
+		480138BB8D2659598B936102BAE6CBD6 /* _Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAEDFC99CFFD216D08FA1E4DC9936124 /* _Utils.swift */; };
+		4D390534844090E07F06B6B43224B2DE /* TopPLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */; };
+		5013822BC71C1DCD6B05D035C5AD484A /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */; };
+		5358F797AA0BED44869A8D45BFE74EC1 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398DA98444C1C2C48A9627DB2C49A379 /* Trie.swift */; };
 		53DC4F003A1C24002EEECDE30A3CCDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		552DCAE9D1B0A8F8D2F1129FDBB80DBE /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8EF90BCE047071837DBC6145DF /* Decoder.swift */; };
-		5590FBBE4FE79303A14661C8025174FE /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E479D6722F6019FA3AEAB6CC8A532 /* Downloader.swift */; };
-		57E01198AA131C63831224680A4FB6E6 /* GenerationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */; };
-		5DC57506E302F88F99533A3503840D2E /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33153A095368BDFD49FA10C31C01D15 /* FeatureExtractor.swift */; };
-		62A2A9352D79CCAD25F01780F5C4B69C /* LogitsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F1E7AFE555DF71C141064329D7E79C /* LogitsProcessor.swift */; };
-		6AA9EAD6182C739B9F237E00BC999C06 /* AudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B5A0E2B908B3E3C5E8964B56F4400 /* AudioProcessor.swift */; };
+		56E4B3E9B41FAC2F550F2F8FCDCFCAA1 /* LogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05B4E65BE72F10B0E4900F5C7B8927 /* LogitsWarper.swift */; };
+		56F10DD48EA6A64CB4D1F92EE6BE9AA3 /* LogitsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8873C0F4DC8777C52AD05372744EE0E /* LogitsFilter.swift */; };
 		6B0ED844AFF0D669B881C7466501DFBA /* Pods-cocoa-whisper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D1CB49A5AC30D9A62AD98D8D77A36D /* Pods-cocoa-whisper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D05ABCDAC9EC5E6BF28B2987AE30DFB /* TopPLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */; };
-		720FF100C9CA564909D8B47E35153EF4 /* ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785C14A57EE8DD7FF266654006BD931 /* ByteEncoder.swift */; };
-		762BA47F759BF182EC0907977627F86F /* AudioStreamTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46CAEC2CE2D2B6B31C5BE99A36559B /* AudioStreamTranscriber.swift */; };
+		6DC1BDCBC6C162B0F9FDD25967A772A1 /* GenerationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */; };
+		720EDD3648F701C674993C5F087CC0BD /* BPETokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96471B454B952172183CE2400B43F9 /* BPETokenizer.swift */; };
 		7D8E9BB61F1E888C6945CD2F1F6D81AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		857E3E4C07BE4CB2CE86685CAAC2F5AB /* LogitsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D680C9E7B71EBACFC33AF6803BDC2EB1 /* LogitsFilter.swift */; };
-		869DB57BEC640A61688221AC7B39FD4F /* TopKLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */; };
-		86FC156E208765E4AED509819EA47EF1 /* AudioEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFAB56B90E43AF0D3AE62D9EE41C8B /* AudioEncoder.swift */; };
+		821643152B79BD28AC0068B677E6A47C /* TopKLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */; };
+		8259467A0E3D23B21B4CB2747729A94B /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0FCCAC6F8DB507E480BD57D11B6464 /* Utils.swift */; };
 		872E246E1D8F8B5270D6C057D4E6EDC3 /* Pods-cocoa-whisper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0A2C90ABF7B31F1552BC2A417C59C8 /* Pods-cocoa-whisper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A65F9A1CBE4FB87812A08AF48D4599A /* TextDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8CB999C3CD676A0BA64D3C80661290 /* TextDecoder.swift */; };
-		900EB5B92A82C5FF50205CA7C6E65F9E /* MLShapedArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */; };
-		98C003EC61BAEF16CD90A97EBB83C8D7 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90AB04A1472EC668FE9F757596E9831 /* Tokenizer.swift */; };
+		90D474DEE1A8871BC9D6FCD1170AC145 /* AudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9555B46D0A1C1F1F051310C4E7FF93E /* AudioProcessor.swift */; };
+		91162FA761510AF4F57999FBFD44164D /* AudioStreamTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4F1ACC1DA7AE43A5AB85075C9843D22 /* AudioStreamTranscriber.swift */; };
 		9C27AB85CDD7353D9E73D17DDA8F99F2 /* Pods-cocoa-whisper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B5C460B9FFEEF5B8F462A47AFEFE5 /* Pods-cocoa-whisper_Tests-dummy.m */; };
-		A8AFF85D3481E32A1695F2E3B3ABFEA3 /* BPETokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278BDA93F8E12BA267C4E1FE2A3C0DCE /* BPETokenizer.swift */; };
-		A8E982FE1DE33B619ED72F2B1655A4D1 /* cocoa-whisper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */; };
-		B352D209F4BEE6E1B71D59E41BE0A536 /* WhisperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF3E4B34F22AE525E9BE9ED7206308 /* WhisperKit.swift */; };
-		BA5B0E12232E0138C42E68171C176CA6 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */; };
-		C7CA2F350D430F43F2D1531EAE76AF56 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC7F8CB32535589E43F3F6C5BE6F8C /* Trie.swift */; };
-		CBAB13F687526655C0253EFF9DC18EFE /* PostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C931138C24E5A6133117AC2357C067 /* PostProcessor.swift */; };
-		D1CC5E25EB2CE03FA188008BBDDDBD3C /* TokenSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA8640BAEA66A102DA7FABA61CFC /* TokenSampler.swift */; };
-		D39307D772C71CD3A28C4667CCD7452F /* Normalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDEE63482FD3C46496EA774A8CEC6E /* Normalizer.swift */; };
+		A00A116540A4B7C0DF4934CC07634061 /* BertTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7807ECFC3C9E9687E2966E4E8631D53 /* BertTokenizer.swift */; };
+		A126253185BA4D1E000C0CC8F1A920C4 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */; };
+		A769C0E87F8C9035C747CEE7F42AE4FA /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6EBB74732D0A9B8D8B06F4409A5DA1 /* Tokenizer.swift */; };
+		B4B93E23290D9995CAD87F8F5A539181 /* ResultWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51EA2F9B438952327D5B2DD5575D891 /* ResultWriter.swift */; };
+		B56D67423CFA39E5F38155A86A8EC006 /* Normalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128ED0CE1E08976BB2C43CC4ADB6193E /* Normalizer.swift */; };
+		BB9C4F6AB3C0755652216B631FED7BAE /* PostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFAA0BF597CF4691CBEBEFF62BBEE7F /* PostProcessor.swift */; };
+		BE8B551D97EE58BB1DB818F2F7D36F6A /* ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E49DEA739B766649B35DD51F6E0AAEE /* ByteEncoder.swift */; };
+		C458488B8B79C9786FACD0B7545BFC2A /* AudioEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0FF1FD44732CC84CB1228705934188 /* AudioEncoder.swift */; };
+		C9090FF0793A52501908546F14597DC5 /* TextDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854E38954B11F81E29EA93EE3D740580 /* TextDecoder.swift */; };
+		CC4CD87DCCF324473B9F0FC001020110 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79BFF385246851913C9955C6B5DE570 /* Decoder.swift */; };
+		D9497B82F33941F8807FA4AC85DAB4AD /* TokenLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A71DDD73C5B659DAB7446B0DF54E1 /* TokenLattice.swift */; };
 		DA76D6CC03203CC1AD5858AE4FAE6E76 /* Pods-cocoa-whisper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA48FABE7FF66FBF19961FCCB3EB5B0 /* Pods-cocoa-whisper_Example-dummy.m */; };
-		DE4BE6E91AFD6E3484C9DCDD110C00AE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BAEA0C2CF565DC31D2ACFBCBDAD78 /* Models.swift */; };
-		E279AFCBC5C14438FBED7BE9F7418608 /* UnigramTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D52575626BF959B3393AB004510B7 /* UnigramTokenizer.swift */; };
-		EC871BCFADA936D248E637F8FD665365 /* SegmentSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539DD8E69B625A939BAEAF7F46BF2433 /* SegmentSeeker.swift */; };
-		ED145431927EDC3CCEC414EC78DC19B5 /* BertTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66050D4431C07E336B6EAB975814121 /* BertTokenizer.swift */; };
-		EDCF12BC5E35AAB90B82B39AC40D4A00 /* HubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */; };
+		E2AFE7EC935D171661AC9DE297887089 /* MLShapedArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */; };
+		EE44878DA125DDFF2DD53E809987892F /* WhisperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7650F33AD05C31A69A04BFE536805A96 /* WhisperKit.swift */; };
+		EE477E18575C797C54879238D0681E68 /* UnigramTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD21BBCDF5238965F679CEE8D7BA0218 /* UnigramTokenizer.swift */; };
 		F934BD44426E9AF2A373CAEB476D7745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FA4502FD9BA869A12565F1325CE5DB58 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB49E240F767E302F505E8759A2EE0D2 /* Utils.swift */; };
-		FB209EB8B77243F4138819AEA343D6DF /* PreTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A15E03BC641CC470A93EC4EFC31524 /* PreTokenizer.swift */; };
-		FD1FA613CEAA6BE6C2158053FF39225F /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,72 +79,72 @@
 		098137FB73906D89E78B31D5B99AE6CF /* Pods-cocoa-whisper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Tests-Info.plist"; sourceTree = "<group>"; };
 		099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopPLogitsWarper.swift; sourceTree = "<group>"; };
 		0A37E7165B9DFD10285FCC213C385270 /* Pods-cocoa-whisper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cocoa-whisper_Example"; path = Pods_cocoa_whisper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B6EBB74732D0A9B8D8B06F4409A5DA1 /* Tokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
 		0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenerationConfig.swift; sourceTree = "<group>"; };
 		0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
 		0DACDACBB33EF67E8F7A59233761FF1A /* cocoa-whisper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-prefix.pch"; sourceTree = "<group>"; };
+		128ED0CE1E08976BB2C43CC4ADB6193E /* Normalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Normalizer.swift; sourceTree = "<group>"; };
 		12CEF06036813BD2F3EEC6C7550518FC /* Pods-cocoa-whisper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageModelTypes.swift; sourceTree = "<group>"; };
 		17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HubApi.swift; sourceTree = "<group>"; };
 		17EBF6C5DAF98274B1B4FFA7698E4500 /* Pods-cocoa-whisper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1AAFAB56B90E43AF0D3AE62D9EE41C8B /* AudioEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioEncoder.swift; sourceTree = "<group>"; };
-		278BDA93F8E12BA267C4E1FE2A3C0DCE /* BPETokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BPETokenizer.swift; sourceTree = "<group>"; };
+		1841527BD24A7A1B54B4F9C912F2DEA2 /* FeatureExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
 		34F1E7AFE555DF71C141064329D7E79C /* LogitsProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsProcessor.swift; sourceTree = "<group>"; };
-		40EFBA8640BAEA66A102DA7FABA61CFC /* TokenSampler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenSampler.swift; sourceTree = "<group>"; };
+		398DA98444C1C2C48A9627DB2C49A379 /* Trie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		3B0FCCAC6F8DB507E480BD57D11B6464 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		3BAE42676FFCDA905CE2E56CFA571774 /* TokenSampler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenSampler.swift; sourceTree = "<group>"; };
 		41D54EEDA4874BE4DCB3FD93BB04A0F0 /* cocoa-whisper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1426990AACC0892BF6A3E787CA1A30 /* Pods-cocoa-whisper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		50A15E03BC641CC470A93EC4EFC31524 /* PreTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreTokenizer.swift; sourceTree = "<group>"; };
-		539DD8E69B625A939BAEAF7F46BF2433 /* SegmentSeeker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSeeker.swift; sourceTree = "<group>"; };
+		4E9A71DDD73C5B659DAB7446B0DF54E1 /* TokenLattice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenLattice.swift; sourceTree = "<group>"; };
 		5610B5BD497FA79BF0BEF917C76D4B7B /* Pods-cocoa-whisper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cocoa-whisper_Tests"; path = Pods_cocoa_whisper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D9D8FCCACB150DA2B4D98A06CAFCF2 /* Pods-cocoa-whisper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Example-Info.plist"; sourceTree = "<group>"; };
 		5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Utils.swift"; sourceTree = "<group>"; };
 		612B2F28715B9624408285ECC7D62110 /* cocoa-whisper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "cocoa-whisper.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		623209588FF81A22FFD6F60F53AD859B /* _Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = _Utils.swift; sourceTree = "<group>"; };
 		62D575F504293AD2528054C149A41EAD /* Pods-cocoa-whisper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoa-whisper_Tests.modulemap"; sourceTree = "<group>"; };
-		6A8CB999C3CD676A0BA64D3C80661290 /* TextDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextDecoder.swift; sourceTree = "<group>"; };
-		6CEF3E4B34F22AE525E9BE9ED7206308 /* WhisperKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WhisperKit.swift; sourceTree = "<group>"; };
-		705BAEA0C2CF565DC31D2ACFBCBDAD78 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7650F33AD05C31A69A04BFE536805A96 /* WhisperKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WhisperKit.swift; sourceTree = "<group>"; };
+		77086854BDCDA8A50E35AF3944305B73 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		771B5C460B9FFEEF5B8F462A47AFEFE5 /* Pods-cocoa-whisper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoa-whisper_Tests-dummy.m"; sourceTree = "<group>"; };
-		7785C14A57EE8DD7FF266654006BD931 /* ByteEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ByteEncoder.swift; sourceTree = "<group>"; };
 		7B4926ACDE13F4A2EAFA561D1DAEF251 /* cocoa-whisper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.release.xcconfig"; sourceTree = "<group>"; };
 		7BFB9134A5255DC0BA1E5D19EDB497D4 /* Pods-cocoa-whisper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cocoa-whisper-dummy.m"; sourceTree = "<group>"; };
 		83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "cocoa-whisper"; path = cocoa_whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E9B5A0E2B908B3E3C5E8964B56F4400 /* AudioProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioProcessor.swift; sourceTree = "<group>"; };
+		854E38954B11F81E29EA93EE3D740580 /* TextDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextDecoder.swift; sourceTree = "<group>"; };
 		8F0A2C90ABF7B31F1552BC2A417C59C8 /* Pods-cocoa-whisper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoa-whisper_Example-umbrella.h"; sourceTree = "<group>"; };
 		9348D752B911291A512528C922712320 /* cocoa-whisper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-umbrella.h"; sourceTree = "<group>"; };
-		9415012EC6F1E3D984B0B450C1BB371F /* TokenLattice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenLattice.swift; sourceTree = "<group>"; };
 		94A9F81C93CB020E9FB73917F2124507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLShapedArray+Utils.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3187F8DBF45C51137EC1076FD7FB0A2 /* ResultWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResultWriter.swift; sourceTree = "<group>"; };
-		A33153A095368BDFD49FA10C31C01D15 /* FeatureExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
+		9E49DEA739B766649B35DD51F6E0AAEE /* ByteEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ByteEncoder.swift; sourceTree = "<group>"; };
+		A0AC59501A4FADA42595367959F9E4CF /* SegmentSeeker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSeeker.swift; sourceTree = "<group>"; };
 		A372890ADE8914F7273BBC1319F32BF0 /* cocoa-whisper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "cocoa-whisper.modulemap"; sourceTree = "<group>"; };
+		A4F1ACC1DA7AE43A5AB85075C9843D22 /* AudioStreamTranscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioStreamTranscriber.swift; sourceTree = "<group>"; };
 		A4F1EC14C12F142C160F37AC63AD0FE5 /* Pods-cocoa-whisper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoa-whisper_Example.modulemap"; sourceTree = "<group>"; };
-		A6C931138C24E5A6133117AC2357C067 /* PostProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostProcessor.swift; sourceTree = "<group>"; };
 		ADE2FCBFFF2F961512FB2B8F86EF1271 /* Pods-cocoa-whisper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoa-whisper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ADEC2786DCDCEB14CE17B526DBE86ACE /* TemperatureLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemperatureLogitsWarper.swift; sourceTree = "<group>"; };
-		AE46CAEC2CE2D2B6B31C5BE99A36559B /* AudioStreamTranscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioStreamTranscriber.swift; sourceTree = "<group>"; };
+		B51EA2F9B438952327D5B2DD5575D891 /* ResultWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResultWriter.swift; sourceTree = "<group>"; };
+		B7807ECFC3C9E9687E2966E4E8631D53 /* BertTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BertTokenizer.swift; sourceTree = "<group>"; };
+		B8873C0F4DC8777C52AD05372744EE0E /* LogitsFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsFilter.swift; sourceTree = "<group>"; };
 		BE73E7237104867515A2AC8D1C7A7632 /* cocoa-whisper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "cocoa-whisper-Info.plist"; sourceTree = "<group>"; };
 		BF0D458389CC2647B7168C9ED41E0A00 /* Pods-cocoa-whisper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cocoa-whisper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C29E479D6722F6019FA3AEAB6CC8A532 /* Downloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
-		C2FC7F8CB32535589E43F3F6C5BE6F8C /* Trie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
-		C66050D4431C07E336B6EAB975814121 /* BertTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BertTokenizer.swift; sourceTree = "<group>"; };
-		C8BDEE63482FD3C46496EA774A8CEC6E /* Normalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Normalizer.swift; sourceTree = "<group>"; };
 		CAA48FABE7FF66FBF19961FCCB3EB5B0 /* Pods-cocoa-whisper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoa-whisper_Example-dummy.m"; sourceTree = "<group>"; };
+		CAFAA0BF597CF4691CBEBEFF62BBEE7F /* PostProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostProcessor.swift; sourceTree = "<group>"; };
+		CC0FF1FD44732CC84CB1228705934188 /* AudioEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioEncoder.swift; sourceTree = "<group>"; };
 		CF05B4E65BE72F10B0E4900F5C7B8927 /* LogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsWarper.swift; sourceTree = "<group>"; };
-		D680C9E7B71EBACFC33AF6803BDC2EB1 /* LogitsFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsFilter.swift; sourceTree = "<group>"; };
 		D9D1CB49A5AC30D9A62AD98D8D77A36D /* Pods-cocoa-whisper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoa-whisper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DB49E240F767E302F505E8759A2EE0D2 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		DB8D52575626BF959B3393AB004510B7 /* UnigramTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnigramTokenizer.swift; sourceTree = "<group>"; };
 		DDA6E85DBE8F2B31B03FDE290D83C99E /* Pods-cocoa-whisper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoa-whisper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
+		E79BFF385246851913C9955C6B5DE570 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		E9555B46D0A1C1F1F051310C4E7FF93E /* AudioProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioProcessor.swift; sourceTree = "<group>"; };
 		EA44180BDE685EE81151C19CAFB0DD2A /* Pods-cocoa-whisper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EAEDFC99CFFD216D08FA1E4DC9936124 /* _Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = _Utils.swift; sourceTree = "<group>"; };
 		EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
-		ECBC5A8EF90BCE047071837DBC6145DF /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		EB96471B454B952172183CE2400B43F9 /* BPETokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BPETokenizer.swift; sourceTree = "<group>"; };
 		F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopKLogitsWarper.swift; sourceTree = "<group>"; };
 		F8031246DADCBF5D0700208634222FED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F90AB04A1472EC668FE9F757596E9831 /* Tokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		FC0F9A4401C4B2FBABABE4A720360911 /* PreTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreTokenizer.swift; sourceTree = "<group>"; };
+		FD21BBCDF5238965F679CEE8D7BA0218 /* UnigramTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnigramTokenizer.swift; sourceTree = "<group>"; };
 		FDC5A969E8F8BDB68E6B048126938BB4 /* Pods-cocoa-whisper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -252,7 +252,7 @@
 		4006F58026636A030977C932DAAA0F3D /* WhisperKit */ = {
 			isa = PBXGroup;
 			children = (
-				88F8404D9241AE92F6995826EF62CCEA /* Core */,
+				659370A619F47D5964C1B9E52F95B5B8 /* Core */,
 			);
 			name = WhisperKit;
 			path = WhisperKit;
@@ -299,6 +299,26 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
+		659370A619F47D5964C1B9E52F95B5B8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EAEDFC99CFFD216D08FA1E4DC9936124 /* _Utils.swift */,
+				CC0FF1FD44732CC84CB1228705934188 /* AudioEncoder.swift */,
+				E9555B46D0A1C1F1F051310C4E7FF93E /* AudioProcessor.swift */,
+				A4F1ACC1DA7AE43A5AB85075C9843D22 /* AudioStreamTranscriber.swift */,
+				1841527BD24A7A1B54B4F9C912F2DEA2 /* FeatureExtractor.swift */,
+				B8873C0F4DC8777C52AD05372744EE0E /* LogitsFilter.swift */,
+				77086854BDCDA8A50E35AF3944305B73 /* Models.swift */,
+				B51EA2F9B438952327D5B2DD5575D891 /* ResultWriter.swift */,
+				A0AC59501A4FADA42595367959F9E4CF /* SegmentSeeker.swift */,
+				854E38954B11F81E29EA93EE3D740580 /* TextDecoder.swift */,
+				3BAE42676FFCDA905CE2E56CFA571774 /* TokenSampler.swift */,
+				7650F33AD05C31A69A04BFE536805A96 /* WhisperKit.swift */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
 		7B8B24597636CFC7366149F37DE19403 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,26 +326,6 @@
 				F1EBDFD5981F7576AB043D812A28A0A9 /* Pods-cocoa-whisper_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		88F8404D9241AE92F6995826EF62CCEA /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				1AAFAB56B90E43AF0D3AE62D9EE41C8B /* AudioEncoder.swift */,
-				8E9B5A0E2B908B3E3C5E8964B56F4400 /* AudioProcessor.swift */,
-				AE46CAEC2CE2D2B6B31C5BE99A36559B /* AudioStreamTranscriber.swift */,
-				A33153A095368BDFD49FA10C31C01D15 /* FeatureExtractor.swift */,
-				D680C9E7B71EBACFC33AF6803BDC2EB1 /* LogitsFilter.swift */,
-				705BAEA0C2CF565DC31D2ACFBCBDAD78 /* Models.swift */,
-				A3187F8DBF45C51137EC1076FD7FB0A2 /* ResultWriter.swift */,
-				539DD8E69B625A939BAEAF7F46BF2433 /* SegmentSeeker.swift */,
-				6A8CB999C3CD676A0BA64D3C80661290 /* TextDecoder.swift */,
-				40EFBA8640BAEA66A102DA7FABA61CFC /* TokenSampler.swift */,
-				DB49E240F767E302F505E8759A2EE0D2 /* Utils.swift */,
-				6CEF3E4B34F22AE525E9BE9ED7206308 /* WhisperKit.swift */,
-			);
-			name = Core;
-			path = Core;
 			sourceTree = "<group>";
 		};
 		93AA2CF889368718237132113C0395A2 /* swift-transformers */ = {
@@ -345,6 +345,26 @@
 				5610B5BD497FA79BF0BEF917C76D4B7B /* Pods-cocoa-whisper_Tests */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		96B2A907304187B65EE71D31F51C8D61 /* Tokenizers */ = {
+			isa = PBXGroup;
+			children = (
+				B7807ECFC3C9E9687E2966E4E8631D53 /* BertTokenizer.swift */,
+				EB96471B454B952172183CE2400B43F9 /* BPETokenizer.swift */,
+				9E49DEA739B766649B35DD51F6E0AAEE /* ByteEncoder.swift */,
+				E79BFF385246851913C9955C6B5DE570 /* Decoder.swift */,
+				128ED0CE1E08976BB2C43CC4ADB6193E /* Normalizer.swift */,
+				CAFAA0BF597CF4691CBEBEFF62BBEE7F /* PostProcessor.swift */,
+				FC0F9A4401C4B2FBABABE4A720360911 /* PreTokenizer.swift */,
+				0B6EBB74732D0A9B8D8B06F4409A5DA1 /* Tokenizer.swift */,
+				4E9A71DDD73C5B659DAB7446B0DF54E1 /* TokenLattice.swift */,
+				398DA98444C1C2C48A9627DB2C49A379 /* Trie.swift */,
+				FD21BBCDF5238965F679CEE8D7BA0218 /* UnigramTokenizer.swift */,
+				3B0FCCAC6F8DB507E480BD57D11B6464 /* Utils.swift */,
+			);
+			name = Tokenizers;
+			path = Tokenizers;
 			sourceTree = "<group>";
 		};
 		B3903335075D62473982841988167AFD /* cocoa-whisper */ = {
@@ -393,7 +413,7 @@
 				456084F291489D6262028EFF5A8DD6F0 /* Hub */,
 				35EAF36F11F4F11A0D5FE7956D5305B5 /* Models */,
 				0B14F2205F4B61D7A1E5C4CE0BD93C50 /* TensorUtils */,
-				FAB8FFE4A914FFC1D35CEA43F5807A90 /* Tokenizers */,
+				96B2A907304187B65EE71D31F51C8D61 /* Tokenizers */,
 			);
 			name = Sources;
 			path = Sources;
@@ -413,26 +433,6 @@
 			);
 			name = "Pods-cocoa-whisper_Tests";
 			path = "Target Support Files/Pods-cocoa-whisper_Tests";
-			sourceTree = "<group>";
-		};
-		FAB8FFE4A914FFC1D35CEA43F5807A90 /* Tokenizers */ = {
-			isa = PBXGroup;
-			children = (
-				623209588FF81A22FFD6F60F53AD859B /* _Utils.swift */,
-				C66050D4431C07E336B6EAB975814121 /* BertTokenizer.swift */,
-				278BDA93F8E12BA267C4E1FE2A3C0DCE /* BPETokenizer.swift */,
-				7785C14A57EE8DD7FF266654006BD931 /* ByteEncoder.swift */,
-				ECBC5A8EF90BCE047071837DBC6145DF /* Decoder.swift */,
-				C8BDEE63482FD3C46496EA774A8CEC6E /* Normalizer.swift */,
-				A6C931138C24E5A6133117AC2357C067 /* PostProcessor.swift */,
-				50A15E03BC641CC470A93EC4EFC31524 /* PreTokenizer.swift */,
-				F90AB04A1472EC668FE9F757596E9831 /* Tokenizer.swift */,
-				9415012EC6F1E3D984B0B450C1BB371F /* TokenLattice.swift */,
-				C2FC7F8CB32535589E43F3F6C5BE6F8C /* Trie.swift */,
-				DB8D52575626BF959B3393AB004510B7 /* UnigramTokenizer.swift */,
-			);
-			name = Tokenizers;
-			path = Tokenizers;
 			sourceTree = "<group>";
 		};
 		FF043A920E300DCA3DF69F47DC8C0FF5 /* Generation */ = {
@@ -518,7 +518,7 @@
 			buildConfigurationList = 303886F2D1DBC2659FCC7E6FAB32D2FB /* Build configuration list for PBXNativeTarget "cocoa-whisper" */;
 			buildPhases = (
 				DFF3F115F8C2A96F1E57CE2D90B78DB9 /* Headers */,
-				759A14138C8DFCB89B08BE901BE7C1D5 /* Sources */,
+				865606856F054196E7D21010A509CD77 /* Sources */,
 				61811958ABE6F07D0B0995E896306973 /* Frameworks */,
 				A298EE6C82A03355367282A77C852277 /* Resources */,
 			);
@@ -593,50 +593,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		759A14138C8DFCB89B08BE901BE7C1D5 /* Sources */ = {
+		865606856F054196E7D21010A509CD77 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44BC216DD98E9B6E395046BBC9170EBB /* _Utils.swift in Sources */,
-				86FC156E208765E4AED509819EA47EF1 /* AudioEncoder.swift in Sources */,
-				6AA9EAD6182C739B9F237E00BC999C06 /* AudioProcessor.swift in Sources */,
-				762BA47F759BF182EC0907977627F86F /* AudioStreamTranscriber.swift in Sources */,
-				ED145431927EDC3CCEC414EC78DC19B5 /* BertTokenizer.swift in Sources */,
-				A8AFF85D3481E32A1695F2E3B3ABFEA3 /* BPETokenizer.swift in Sources */,
-				720FF100C9CA564909D8B47E35153EF4 /* ByteEncoder.swift in Sources */,
-				A8E982FE1DE33B619ED72F2B1655A4D1 /* cocoa-whisper-dummy.m in Sources */,
-				552DCAE9D1B0A8F8D2F1129FDBB80DBE /* Decoder.swift in Sources */,
-				5590FBBE4FE79303A14661C8025174FE /* Downloader.swift in Sources */,
-				5DC57506E302F88F99533A3503840D2E /* FeatureExtractor.swift in Sources */,
-				0CD7CE583AEC7A9A1DF706E620C27BCC /* Generation.swift in Sources */,
-				57E01198AA131C63831224680A4FB6E6 /* GenerationConfig.swift in Sources */,
-				03C65604A0A65B92C7F5E5D0035F89AB /* Hub.swift in Sources */,
-				EDCF12BC5E35AAB90B82B39AC40D4A00 /* HubApi.swift in Sources */,
-				00E034E005F35D688DC443AA69FAA391 /* LanguageModel.swift in Sources */,
-				0A1E4D55CC47884AF6493A1BD8158984 /* LanguageModelTypes.swift in Sources */,
-				857E3E4C07BE4CB2CE86685CAAC2F5AB /* LogitsFilter.swift in Sources */,
-				62A2A9352D79CCAD25F01780F5C4B69C /* LogitsProcessor.swift in Sources */,
-				135927B63BCF607659E281C976816DCA /* LogitsWarper.swift in Sources */,
-				BA5B0E12232E0138C42E68171C176CA6 /* Math.swift in Sources */,
-				FD1FA613CEAA6BE6C2158053FF39225F /* MLMultiArray+Utils.swift in Sources */,
-				900EB5B92A82C5FF50205CA7C6E65F9E /* MLShapedArray+Utils.swift in Sources */,
-				DE4BE6E91AFD6E3484C9DCDD110C00AE /* Models.swift in Sources */,
-				D39307D772C71CD3A28C4667CCD7452F /* Normalizer.swift in Sources */,
-				CBAB13F687526655C0253EFF9DC18EFE /* PostProcessor.swift in Sources */,
-				FB209EB8B77243F4138819AEA343D6DF /* PreTokenizer.swift in Sources */,
-				188E862DECBDAE8C9E6AA61EC0F7E84D /* ResultWriter.swift in Sources */,
-				EC871BCFADA936D248E637F8FD665365 /* SegmentSeeker.swift in Sources */,
-				1D6C1CE0F3867E82F44BD0C2C9BB42F3 /* TemperatureLogitsWarper.swift in Sources */,
-				8A65F9A1CBE4FB87812A08AF48D4599A /* TextDecoder.swift in Sources */,
-				98C003EC61BAEF16CD90A97EBB83C8D7 /* Tokenizer.swift in Sources */,
-				527A682E8958586D43BAC226FB80D986 /* TokenLattice.swift in Sources */,
-				D1CC5E25EB2CE03FA188008BBDDDBD3C /* TokenSampler.swift in Sources */,
-				869DB57BEC640A61688221AC7B39FD4F /* TopKLogitsWarper.swift in Sources */,
-				6D05ABCDAC9EC5E6BF28B2987AE30DFB /* TopPLogitsWarper.swift in Sources */,
-				C7CA2F350D430F43F2D1531EAE76AF56 /* Trie.swift in Sources */,
-				E279AFCBC5C14438FBED7BE9F7418608 /* UnigramTokenizer.swift in Sources */,
-				FA4502FD9BA869A12565F1325CE5DB58 /* Utils.swift in Sources */,
-				B352D209F4BEE6E1B71D59E41BE0A536 /* WhisperKit.swift in Sources */,
+				480138BB8D2659598B936102BAE6CBD6 /* _Utils.swift in Sources */,
+				C458488B8B79C9786FACD0B7545BFC2A /* AudioEncoder.swift in Sources */,
+				90D474DEE1A8871BC9D6FCD1170AC145 /* AudioProcessor.swift in Sources */,
+				91162FA761510AF4F57999FBFD44164D /* AudioStreamTranscriber.swift in Sources */,
+				A00A116540A4B7C0DF4934CC07634061 /* BertTokenizer.swift in Sources */,
+				720EDD3648F701C674993C5F087CC0BD /* BPETokenizer.swift in Sources */,
+				BE8B551D97EE58BB1DB818F2F7D36F6A /* ByteEncoder.swift in Sources */,
+				1B030E8A1C17B1EF10940A84FEB4DB0F /* cocoa-whisper-dummy.m in Sources */,
+				CC4CD87DCCF324473B9F0FC001020110 /* Decoder.swift in Sources */,
+				131DE9DBAFBAFAA889CE8F2055A33F09 /* Downloader.swift in Sources */,
+				1F6DBCFB8354DDC3686D199C0967F97A /* FeatureExtractor.swift in Sources */,
+				01B4924DDBE4B112D85EC8AFECFA5807 /* Generation.swift in Sources */,
+				6DC1BDCBC6C162B0F9FDD25967A772A1 /* GenerationConfig.swift in Sources */,
+				1968997514974495A763503FBDFF6C0E /* Hub.swift in Sources */,
+				27B00ED6A48BCF0F3D98722C19F75A6A /* HubApi.swift in Sources */,
+				5013822BC71C1DCD6B05D035C5AD484A /* LanguageModel.swift in Sources */,
+				0768F77582D1929ECF87291DC0B46395 /* LanguageModelTypes.swift in Sources */,
+				56F10DD48EA6A64CB4D1F92EE6BE9AA3 /* LogitsFilter.swift in Sources */,
+				12564F6F2CB74AD88361DA00E987C5B9 /* LogitsProcessor.swift in Sources */,
+				56E4B3E9B41FAC2F550F2F8FCDCFCAA1 /* LogitsWarper.swift in Sources */,
+				2D8093B74A94AF9FF287475C2F965656 /* Math.swift in Sources */,
+				A126253185BA4D1E000C0CC8F1A920C4 /* MLMultiArray+Utils.swift in Sources */,
+				E2AFE7EC935D171661AC9DE297887089 /* MLShapedArray+Utils.swift in Sources */,
+				32BF03EEB422E8D2DBA0254AA21E5D12 /* Models.swift in Sources */,
+				B56D67423CFA39E5F38155A86A8EC006 /* Normalizer.swift in Sources */,
+				BB9C4F6AB3C0755652216B631FED7BAE /* PostProcessor.swift in Sources */,
+				232F34ED64941D4218E7863045BCBED5 /* PreTokenizer.swift in Sources */,
+				B4B93E23290D9995CAD87F8F5A539181 /* ResultWriter.swift in Sources */,
+				35C795FC15D056A9D1E6B5745AD97AC9 /* SegmentSeeker.swift in Sources */,
+				1059E4FA7E61678BB2F43C5275F214E7 /* TemperatureLogitsWarper.swift in Sources */,
+				C9090FF0793A52501908546F14597DC5 /* TextDecoder.swift in Sources */,
+				A769C0E87F8C9035C747CEE7F42AE4FA /* Tokenizer.swift in Sources */,
+				D9497B82F33941F8807FA4AC85DAB4AD /* TokenLattice.swift in Sources */,
+				3EB40AAB1297D5EE9C96271D6B1CBCAE /* TokenSampler.swift in Sources */,
+				821643152B79BD28AC0068B677E6A47C /* TopKLogitsWarper.swift in Sources */,
+				4D390534844090E07F06B6B43224B2DE /* TopPLogitsWarper.swift in Sources */,
+				5358F797AA0BED44869A8D45BFE74EC1 /* Trie.swift in Sources */,
+				EE477E18575C797C54879238D0681E68 /* UnigramTokenizer.swift in Sources */,
+				8259467A0E3D23B21B4CB2747729A94B /* Utils.swift in Sources */,
+				EE44878DA125DDFF2DD53E809987892F /* WhisperKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
