@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  cocoa-whisper: 9ad0f7f7070c93aa7042ea3c1ba10ad1d084eed2
+  cocoa-whisper: 6a025dec057407e4dd8d240797e2a01b239bae63
 
 PODFILE CHECKSUM: 48e8ce7826e2267503289bdd7255c30abedafb47
 

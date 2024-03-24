@@ -18,8 +18,5 @@
   "platforms": {
     "ios": "17.0"
   },
-  "source_files": [
-    "cocoa-whisper/Classes/**/*.swift",
-    "cocoa-whisper/deps/**/*.swift"
-  ]
+  "source_files": "cocoa-whisper/**/*.swift"
 }

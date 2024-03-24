@@ -3,70 +3,69 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E7DF3A063B89B6AC3A0FDC1CAFBDF14 /* GenerationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E949884D38258BD4D657CE953AC71184 /* GenerationConfig.swift */; };
-		1430405C1D12C71D5900DEBF7580096C /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764185A8C369184EC8D29A4B575220BB /* LanguageModel.swift */; };
-		1BF452318BACB9D46637CCE85D9367D9 /* TextDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF94BA452D19E03635589BB853DB6B1 /* TextDecoder.swift */; };
-		1E6FC763BE49C9A02CC4FC12E0BF6971 /* BertTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E44BA6B287195EF8E144CE111B3424F /* BertTokenizer.swift */; };
-		28B382C1C091085F5E21B5AE2B150872 /* BPETokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CEE0311361E33593122BD064405F48 /* BPETokenizer.swift */; };
-		3178D3A764E9CA8AB5511F1419CCAA67 /* AudioStreamTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3571B5876CD3908C61F481E017E4CB /* AudioStreamTranscriber.swift */; };
-		4A57F350DEE8236F0816CCC97F9AE6A7 /* SegmentSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D87F50C2F129D41F01A103D3BCF49B /* SegmentSeeker.swift */; };
-		4CE2463BEC852CC6F0B4AED086F59B00 /* LogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889471DA29B3A59150010C860C56C168 /* LogitsWarper.swift */; };
-		4CE44A1CAA02117316D4E0AE8F9E3DAA /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476DF27D940BE68489FCA0540956BF72 /* MLMultiArray+Utils.swift */; };
-		53B6D0B816A32E4B76344DB9AC73B2FE /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAA7E51F481403A2968E1B76D44F9B2E /* Hub.swift */; };
-		557A03E09D0ED161839DE8A35773C6C9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C786419361AB115F60B93914E81E14 /* Models.swift */; };
-		581F9F9192C50D8C6D1ABC81D9D9F971 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2B0D526877AA0C0E723FBA60AD3DC6 /* Trie.swift */; };
-		58C9F44E4E4CB84A23F4035990157E91 /* HubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B209DC3A1AE62570CF66215167F9D4 /* HubApi.swift */; };
-		5D7F1F13234B0CA9DDEB29C4FA38F1B0 /* AudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB03A88B02B35B0F2BC36A4C3103B9F /* AudioProcessor.swift */; };
-		5F0AE7776395BE257BB5F8CE2E6230C1 /* AudioEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9D414BFA69E650558CE13297E889CC /* AudioEncoder.swift */; };
-		61DAB4D15EC8EC522C9B97271B19C789 /* cocoa-whisper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A0A8761F389BF20ADDC8749D6E51D /* cocoa-whisper-dummy.m */; };
-		658317FCCAE37B489FB17E9A62262FF7 /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5EB43D63F50610A8B16AB616ACE4BE /* FeatureExtractor.swift */; };
-		6A99D3C3A5E63672D7A1C671E10C5D3E /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19D3990AB68F2B4A3595A30AAAC5BD7 /* Downloader.swift */; };
+		00E034E005F35D688DC443AA69FAA391 /* LanguageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */; };
+		03C65604A0A65B92C7F5E5D0035F89AB /* Hub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0641EC1FAFD71602E289A5940AEF5FB2 /* Hub.swift */; };
+		0A1E4D55CC47884AF6493A1BD8158984 /* LanguageModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */; };
+		0CD7CE583AEC7A9A1DF706E620C27BCC /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */; };
+		135927B63BCF607659E281C976816DCA /* LogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF05B4E65BE72F10B0E4900F5C7B8927 /* LogitsWarper.swift */; };
+		188E862DECBDAE8C9E6AA61EC0F7E84D /* ResultWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3187F8DBF45C51137EC1076FD7FB0A2 /* ResultWriter.swift */; };
+		1D6C1CE0F3867E82F44BD0C2C9BB42F3 /* TemperatureLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADEC2786DCDCEB14CE17B526DBE86ACE /* TemperatureLogitsWarper.swift */; };
+		29565CA447F310696A58C70F736E77AF /* cocoa-whisper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9348D752B911291A512528C922712320 /* cocoa-whisper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44BC216DD98E9B6E395046BBC9170EBB /* _Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623209588FF81A22FFD6F60F53AD859B /* _Utils.swift */; };
+		527A682E8958586D43BAC226FB80D986 /* TokenLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9415012EC6F1E3D984B0B450C1BB371F /* TokenLattice.swift */; };
+		53DC4F003A1C24002EEECDE30A3CCDB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		552DCAE9D1B0A8F8D2F1129FDBB80DBE /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBC5A8EF90BCE047071837DBC6145DF /* Decoder.swift */; };
+		5590FBBE4FE79303A14661C8025174FE /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29E479D6722F6019FA3AEAB6CC8A532 /* Downloader.swift */; };
+		57E01198AA131C63831224680A4FB6E6 /* GenerationConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */; };
+		5DC57506E302F88F99533A3503840D2E /* FeatureExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A33153A095368BDFD49FA10C31C01D15 /* FeatureExtractor.swift */; };
+		62A2A9352D79CCAD25F01780F5C4B69C /* LogitsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F1E7AFE555DF71C141064329D7E79C /* LogitsProcessor.swift */; };
+		6AA9EAD6182C739B9F237E00BC999C06 /* AudioProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B5A0E2B908B3E3C5E8964B56F4400 /* AudioProcessor.swift */; };
 		6B0ED844AFF0D669B881C7466501DFBA /* Pods-cocoa-whisper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D1CB49A5AC30D9A62AD98D8D77A36D /* Pods-cocoa-whisper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D8E49F42494C1D3146DD7D449E42582 /* TokenLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356EEB086324DD74FE1BED81FCFA64F1 /* TokenLattice.swift */; };
-		6DAD7E8928E228965BFE7C9AE6184B72 /* ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB2B031ED6B605DDE7856B755F362F05 /* ByteEncoder.swift */; };
-		709D9E431FB2C27F691253B2A0B9BBB8 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91334485E28C4CC8385F4956D73C677 /* Math.swift */; };
-		74F0521C2CBEFC92A30F10834E900F10 /* TokenSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1197AA1C268476B735F05A5F93293FE /* TokenSampler.swift */; };
-		75E24FBA91354E5AAD504B23A582BC91 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5C4EA4051DC1046DB3921F23FF836 /* Utils.swift */; };
-		7A5BEBB32BAF64BE004F6096 /* _Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625E7B9CEA433642B83C42FD8A31D389 /* _Utils.swift */; };
-		7A79FF2741D5EE20CA75A163668912D4 /* PostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1289C079E64254C273A9BFE90B668BA /* PostProcessor.swift */; };
-		7D04F94FB44D78525C8750F9A1742FB1 /* ResultWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019E91A3D6A29DE6E48AC0C730B73D57 /* ResultWriter.swift */; };
+		6D05ABCDAC9EC5E6BF28B2987AE30DFB /* TopPLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */; };
+		720FF100C9CA564909D8B47E35153EF4 /* ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785C14A57EE8DD7FF266654006BD931 /* ByteEncoder.swift */; };
+		762BA47F759BF182EC0907977627F86F /* AudioStreamTranscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE46CAEC2CE2D2B6B31C5BE99A36559B /* AudioStreamTranscriber.swift */; };
 		7D8E9BB61F1E888C6945CD2F1F6D81AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		857E3E4C07BE4CB2CE86685CAAC2F5AB /* LogitsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D680C9E7B71EBACFC33AF6803BDC2EB1 /* LogitsFilter.swift */; };
+		869DB57BEC640A61688221AC7B39FD4F /* TopKLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */; };
+		86FC156E208765E4AED509819EA47EF1 /* AudioEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFAB56B90E43AF0D3AE62D9EE41C8B /* AudioEncoder.swift */; };
 		872E246E1D8F8B5270D6C057D4E6EDC3 /* Pods-cocoa-whisper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F0A2C90ABF7B31F1552BC2A417C59C8 /* Pods-cocoa-whisper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		879FB5240BB846D0BA6D74FAA9D15A10 /* UnigramTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912CB2E66EC0970E9539EB7C38CA97CB /* UnigramTokenizer.swift */; };
-		8CBA0B9630C54098074DF2A0ABE3813C /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2CD3FA2E07A41DB06955C9932D51EC /* Decoder.swift */; };
-		8E9F12BC9B4BF0B67170B81549F7ED77 /* TopPLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E12069226607AD612457A0249FCD34F /* TopPLogitsWarper.swift */; };
+		8A65F9A1CBE4FB87812A08AF48D4599A /* TextDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8CB999C3CD676A0BA64D3C80661290 /* TextDecoder.swift */; };
+		900EB5B92A82C5FF50205CA7C6E65F9E /* MLShapedArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */; };
+		98C003EC61BAEF16CD90A97EBB83C8D7 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90AB04A1472EC668FE9F757596E9831 /* Tokenizer.swift */; };
 		9C27AB85CDD7353D9E73D17DDA8F99F2 /* Pods-cocoa-whisper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 771B5C460B9FFEEF5B8F462A47AFEFE5 /* Pods-cocoa-whisper_Tests-dummy.m */; };
-		A1E46CE07E010E615719D2985B18FABA /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3002985388A86437FF50D35E0765BB72 /* ReplaceMe.swift */; };
-		ADE4524CACA8AF10B18FACF369F03799 /* LanguageModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9234B5F66BDBF75715A34AD040C5D6A /* LanguageModelTypes.swift */; };
-		AF46FE052A2F7FD11E68480D3C8721BC /* TopKLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73820F59832CBB41E3D4912EF21D91C8 /* TopKLogitsWarper.swift */; };
-		B6A89D514AA38780A3C98E5A4C298FAD /* LogitsFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2715B42672F7192EA216892519891EBC /* LogitsFilter.swift */; };
-		C070759D8877D117D8B186A0ADB7EDB9 /* WhisperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C878751099AD9974A5C9D17C193CB743 /* WhisperKit.swift */; };
-		C1C2A17D7A8756C9F9FBA7D828535F65 /* MLShapedArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9371A111BDFF040B6A941B7D93B33F /* MLShapedArray+Utils.swift */; };
-		D1BEE54EF3331EC3062F76FC1397CC13 /* PreTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B295BEDD2B1C90CE6308FB3DE57EDD7 /* PreTokenizer.swift */; };
+		A8AFF85D3481E32A1695F2E3B3ABFEA3 /* BPETokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278BDA93F8E12BA267C4E1FE2A3C0DCE /* BPETokenizer.swift */; };
+		A8E982FE1DE33B619ED72F2B1655A4D1 /* cocoa-whisper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */; };
+		B352D209F4BEE6E1B71D59E41BE0A536 /* WhisperKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEF3E4B34F22AE525E9BE9ED7206308 /* WhisperKit.swift */; };
+		BA5B0E12232E0138C42E68171C176CA6 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */; };
+		C7CA2F350D430F43F2D1531EAE76AF56 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FC7F8CB32535589E43F3F6C5BE6F8C /* Trie.swift */; };
+		CBAB13F687526655C0253EFF9DC18EFE /* PostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C931138C24E5A6133117AC2357C067 /* PostProcessor.swift */; };
+		D1CC5E25EB2CE03FA188008BBDDDBD3C /* TokenSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA8640BAEA66A102DA7FABA61CFC /* TokenSampler.swift */; };
+		D39307D772C71CD3A28C4667CCD7452F /* Normalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BDEE63482FD3C46496EA774A8CEC6E /* Normalizer.swift */; };
 		DA76D6CC03203CC1AD5858AE4FAE6E76 /* Pods-cocoa-whisper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA48FABE7FF66FBF19961FCCB3EB5B0 /* Pods-cocoa-whisper_Example-dummy.m */; };
-		DEB36B3BB4798FD789B02742AF5AF172 /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91864AEC4A4DC4A7F4B0C0DC2C74B44C /* Tokenizer.swift */; };
-		DF7EC2C2667F00C9B5082ECEA77F2B40 /* TemperatureLogitsWarper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CA08D9BE7934C378C756E7804C8E72 /* TemperatureLogitsWarper.swift */; };
-		E0A9514220C94A9E9E5C6EDA81E53B96 /* cocoa-whisper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05475236AD769EFE54AE3D1A7B0618EE /* cocoa-whisper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E0C88ADD8A35D42D0A0D236DBBB02987 /* Normalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A949F5D7A00CE17DC02D5B09EF257458 /* Normalizer.swift */; };
-		F216529F74257D475D407CD014E41C6F /* Generation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0955A23F53F9F186FFEEC441084472 /* Generation.swift */; };
-		F742FFDA61E7500BB26D0EA694024108 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DE4BE6E91AFD6E3484C9DCDD110C00AE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BAEA0C2CF565DC31D2ACFBCBDAD78 /* Models.swift */; };
+		E279AFCBC5C14438FBED7BE9F7418608 /* UnigramTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8D52575626BF959B3393AB004510B7 /* UnigramTokenizer.swift */; };
+		EC871BCFADA936D248E637F8FD665365 /* SegmentSeeker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539DD8E69B625A939BAEAF7F46BF2433 /* SegmentSeeker.swift */; };
+		ED145431927EDC3CCEC414EC78DC19B5 /* BertTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66050D4431C07E336B6EAB975814121 /* BertTokenizer.swift */; };
+		EDCF12BC5E35AAB90B82B39AC40D4A00 /* HubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */; };
 		F934BD44426E9AF2A373CAEB476D7745 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		F97585EEEAB6EF854292153982AC3F4A /* LogitsProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA4575AD60CE4DE12E8C6F52AE861BD /* LogitsProcessor.swift */; };
+		FA4502FD9BA869A12565F1325CE5DB58 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB49E240F767E302F505E8759A2EE0D2 /* Utils.swift */; };
+		FB209EB8B77243F4138819AEA343D6DF /* PreTokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A15E03BC641CC470A93EC4EFC31524 /* PreTokenizer.swift */; };
+		FD1FA613CEAA6BE6C2158053FF39225F /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D92C484DABD5BB84594E521140D9F9AA /* PBXContainerItemProxy */ = {
+		40F654465D0B6E6E01BDCF24C89B6E05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5D395FE07E689555068ECCBF067DDCFD;
 			remoteInfo = "Pods-cocoa-whisper_Example";
 		};
-		E6C240E7B9C9FDEDB8B8A493AB800094 /* PBXContainerItemProxy */ = {
+		A01C8C6CDED486835A9A83EB9B91CA09 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -76,94 +75,93 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		019E91A3D6A29DE6E48AC0C730B73D57 /* ResultWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResultWriter.swift; sourceTree = "<group>"; };
-		05475236AD769EFE54AE3D1A7B0618EE /* cocoa-whisper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-umbrella.h"; sourceTree = "<group>"; };
+		0641EC1FAFD71602E289A5940AEF5FB2 /* Hub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hub.swift; sourceTree = "<group>"; };
 		098137FB73906D89E78B31D5B99AE6CF /* Pods-cocoa-whisper_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Tests-Info.plist"; sourceTree = "<group>"; };
+		099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopPLogitsWarper.swift; sourceTree = "<group>"; };
 		0A37E7165B9DFD10285FCC213C385270 /* Pods-cocoa-whisper_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cocoa-whisper_Example"; path = Pods_cocoa_whisper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenerationConfig.swift; sourceTree = "<group>"; };
+		0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
+		0DACDACBB33EF67E8F7A59233761FF1A /* cocoa-whisper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-prefix.pch"; sourceTree = "<group>"; };
 		12CEF06036813BD2F3EEC6C7550518FC /* Pods-cocoa-whisper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		16E35BCA190B0901C81EB8079F100956 /* cocoa-whisper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "cocoa-whisper.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageModelTypes.swift; sourceTree = "<group>"; };
+		17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HubApi.swift; sourceTree = "<group>"; };
 		17EBF6C5DAF98274B1B4FFA7698E4500 /* Pods-cocoa-whisper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		1AD41812DBD80729256EA02C6D728BD3 /* cocoa-whisper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "cocoa-whisper-Info.plist"; sourceTree = "<group>"; };
-		1F9D414BFA69E650558CE13297E889CC /* AudioEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioEncoder.swift; sourceTree = "<group>"; };
-		24AAD67661BC58F5B5D20C328B5D595F /* cocoa-whisper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.debug.xcconfig"; sourceTree = "<group>"; };
-		2715B42672F7192EA216892519891EBC /* LogitsFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsFilter.swift; sourceTree = "<group>"; };
-		3002985388A86437FF50D35E0765BB72 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
-		356EEB086324DD74FE1BED81FCFA64F1 /* TokenLattice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenLattice.swift; sourceTree = "<group>"; };
-		3E44BA6B287195EF8E144CE111B3424F /* BertTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BertTokenizer.swift; sourceTree = "<group>"; };
-		476DF27D940BE68489FCA0540956BF72 /* MLMultiArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Utils.swift"; sourceTree = "<group>"; };
+		1AAFAB56B90E43AF0D3AE62D9EE41C8B /* AudioEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioEncoder.swift; sourceTree = "<group>"; };
+		278BDA93F8E12BA267C4E1FE2A3C0DCE /* BPETokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BPETokenizer.swift; sourceTree = "<group>"; };
+		34F1E7AFE555DF71C141064329D7E79C /* LogitsProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsProcessor.swift; sourceTree = "<group>"; };
+		40EFBA8640BAEA66A102DA7FABA61CFC /* TokenSampler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenSampler.swift; sourceTree = "<group>"; };
+		41D54EEDA4874BE4DCB3FD93BB04A0F0 /* cocoa-whisper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.debug.xcconfig"; sourceTree = "<group>"; };
 		4C1426990AACC0892BF6A3E787CA1A30 /* Pods-cocoa-whisper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4DA4575AD60CE4DE12E8C6F52AE861BD /* LogitsProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsProcessor.swift; sourceTree = "<group>"; };
-		4E12069226607AD612457A0249FCD34F /* TopPLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopPLogitsWarper.swift; sourceTree = "<group>"; };
-		4F2CD3FA2E07A41DB06955C9932D51EC /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
-		4FB5C4EA4051DC1046DB3921F23FF836 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		51CA08D9BE7934C378C756E7804C8E72 /* TemperatureLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemperatureLogitsWarper.swift; sourceTree = "<group>"; };
-		54B209DC3A1AE62570CF66215167F9D4 /* HubApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HubApi.swift; sourceTree = "<group>"; };
+		50A15E03BC641CC470A93EC4EFC31524 /* PreTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreTokenizer.swift; sourceTree = "<group>"; };
+		539DD8E69B625A939BAEAF7F46BF2433 /* SegmentSeeker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSeeker.swift; sourceTree = "<group>"; };
 		5610B5BD497FA79BF0BEF917C76D4B7B /* Pods-cocoa-whisper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cocoa-whisper_Tests"; path = Pods_cocoa_whisper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D9D8FCCACB150DA2B4D98A06CAFCF2 /* Pods-cocoa-whisper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Example-Info.plist"; sourceTree = "<group>"; };
-		5FF94BA452D19E03635589BB853DB6B1 /* TextDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextDecoder.swift; sourceTree = "<group>"; };
-		625E7B9CEA433642B83C42FD8A31D389 /* _Utils.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; includeInIndex = 1; path = _Utils.swift; sourceTree = "<group>"; };
+		5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Utils.swift"; sourceTree = "<group>"; };
+		612B2F28715B9624408285ECC7D62110 /* cocoa-whisper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "cocoa-whisper.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		623209588FF81A22FFD6F60F53AD859B /* _Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = _Utils.swift; sourceTree = "<group>"; };
 		62D575F504293AD2528054C149A41EAD /* Pods-cocoa-whisper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoa-whisper_Tests.modulemap"; sourceTree = "<group>"; };
-		6B295BEDD2B1C90CE6308FB3DE57EDD7 /* PreTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreTokenizer.swift; sourceTree = "<group>"; };
+		6A8CB999C3CD676A0BA64D3C80661290 /* TextDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextDecoder.swift; sourceTree = "<group>"; };
+		6CEF3E4B34F22AE525E9BE9ED7206308 /* WhisperKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WhisperKit.swift; sourceTree = "<group>"; };
+		705BAEA0C2CF565DC31D2ACFBCBDAD78 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73820F59832CBB41E3D4912EF21D91C8 /* TopKLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopKLogitsWarper.swift; sourceTree = "<group>"; };
-		764185A8C369184EC8D29A4B575220BB /* LanguageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
 		771B5C460B9FFEEF5B8F462A47AFEFE5 /* Pods-cocoa-whisper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoa-whisper_Tests-dummy.m"; sourceTree = "<group>"; };
+		7785C14A57EE8DD7FF266654006BD931 /* ByteEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ByteEncoder.swift; sourceTree = "<group>"; };
+		7B4926ACDE13F4A2EAFA561D1DAEF251 /* cocoa-whisper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.release.xcconfig"; sourceTree = "<group>"; };
 		7BFB9134A5255DC0BA1E5D19EDB497D4 /* Pods-cocoa-whisper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D0955A23F53F9F186FFEEC441084472 /* Generation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Generation.swift; sourceTree = "<group>"; };
-		83CBEDA11DAF378F0B58667A39F14157 /* cocoa_whisper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cocoa_whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86AC5E47A046FDF1F59525AB5B252A42 /* cocoa-whisper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "cocoa-whisper.modulemap"; sourceTree = "<group>"; };
-		889471DA29B3A59150010C860C56C168 /* LogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsWarper.swift; sourceTree = "<group>"; };
+		815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cocoa-whisper-dummy.m"; sourceTree = "<group>"; };
+		83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "cocoa-whisper"; path = cocoa_whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E9B5A0E2B908B3E3C5E8964B56F4400 /* AudioProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioProcessor.swift; sourceTree = "<group>"; };
 		8F0A2C90ABF7B31F1552BC2A417C59C8 /* Pods-cocoa-whisper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoa-whisper_Example-umbrella.h"; sourceTree = "<group>"; };
-		8F9371A111BDFF040B6A941B7D93B33F /* MLShapedArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLShapedArray+Utils.swift"; sourceTree = "<group>"; };
-		912CB2E66EC0970E9539EB7C38CA97CB /* UnigramTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnigramTokenizer.swift; sourceTree = "<group>"; };
-		91864AEC4A4DC4A7F4B0C0DC2C74B44C /* Tokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
-		923A0A8761F389BF20ADDC8749D6E51D /* cocoa-whisper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cocoa-whisper-dummy.m"; sourceTree = "<group>"; };
-		98F850D43019E77DA0A4168A9297F8D3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9A5EB43D63F50610A8B16AB616ACE4BE /* FeatureExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1CEE0311361E33593122BD064405F48 /* BPETokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BPETokenizer.swift; sourceTree = "<group>"; };
+		9348D752B911291A512528C922712320 /* cocoa-whisper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-umbrella.h"; sourceTree = "<group>"; };
+		9415012EC6F1E3D984B0B450C1BB371F /* TokenLattice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenLattice.swift; sourceTree = "<group>"; };
+		94A9F81C93CB020E9FB73917F2124507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLShapedArray+Utils.swift"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3187F8DBF45C51137EC1076FD7FB0A2 /* ResultWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResultWriter.swift; sourceTree = "<group>"; };
+		A33153A095368BDFD49FA10C31C01D15 /* FeatureExtractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FeatureExtractor.swift; sourceTree = "<group>"; };
+		A372890ADE8914F7273BBC1319F32BF0 /* cocoa-whisper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "cocoa-whisper.modulemap"; sourceTree = "<group>"; };
 		A4F1EC14C12F142C160F37AC63AD0FE5 /* Pods-cocoa-whisper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoa-whisper_Example.modulemap"; sourceTree = "<group>"; };
-		A949F5D7A00CE17DC02D5B09EF257458 /* Normalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Normalizer.swift; sourceTree = "<group>"; };
-		AC2B0D526877AA0C0E723FBA60AD3DC6 /* Trie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		A6C931138C24E5A6133117AC2357C067 /* PostProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostProcessor.swift; sourceTree = "<group>"; };
 		ADE2FCBFFF2F961512FB2B8F86EF1271 /* Pods-cocoa-whisper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoa-whisper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AE19701B1FC32950C327D77B5DEA92B2 /* cocoa-whisper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.release.xcconfig"; sourceTree = "<group>"; };
-		AF3571B5876CD3908C61F481E017E4CB /* AudioStreamTranscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioStreamTranscriber.swift; sourceTree = "<group>"; };
-		B1C786419361AB115F60B93914E81E14 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		B9D87F50C2F129D41F01A103D3BCF49B /* SegmentSeeker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSeeker.swift; sourceTree = "<group>"; };
+		ADEC2786DCDCEB14CE17B526DBE86ACE /* TemperatureLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TemperatureLogitsWarper.swift; sourceTree = "<group>"; };
+		AE46CAEC2CE2D2B6B31C5BE99A36559B /* AudioStreamTranscriber.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioStreamTranscriber.swift; sourceTree = "<group>"; };
+		BE73E7237104867515A2AC8D1C7A7632 /* cocoa-whisper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "cocoa-whisper-Info.plist"; sourceTree = "<group>"; };
 		BF0D458389CC2647B7168C9ED41E0A00 /* Pods-cocoa-whisper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cocoa-whisper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		C878751099AD9974A5C9D17C193CB743 /* WhisperKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WhisperKit.swift; sourceTree = "<group>"; };
-		C9234B5F66BDBF75715A34AD040C5D6A /* LanguageModelTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageModelTypes.swift; sourceTree = "<group>"; };
+		C29E479D6722F6019FA3AEAB6CC8A532 /* Downloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		C2FC7F8CB32535589E43F3F6C5BE6F8C /* Trie.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		C66050D4431C07E336B6EAB975814121 /* BertTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BertTokenizer.swift; sourceTree = "<group>"; };
+		C8BDEE63482FD3C46496EA774A8CEC6E /* Normalizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Normalizer.swift; sourceTree = "<group>"; };
 		CAA48FABE7FF66FBF19961FCCB3EB5B0 /* Pods-cocoa-whisper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cocoa-whisper_Example-dummy.m"; sourceTree = "<group>"; };
-		D1289C079E64254C273A9BFE90B668BA /* PostProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PostProcessor.swift; sourceTree = "<group>"; };
-		D91334485E28C4CC8385F4956D73C677 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		CF05B4E65BE72F10B0E4900F5C7B8927 /* LogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsWarper.swift; sourceTree = "<group>"; };
+		D680C9E7B71EBACFC33AF6803BDC2EB1 /* LogitsFilter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LogitsFilter.swift; sourceTree = "<group>"; };
 		D9D1CB49A5AC30D9A62AD98D8D77A36D /* Pods-cocoa-whisper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoa-whisper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DAA7E51F481403A2968E1B76D44F9B2E /* Hub.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Hub.swift; sourceTree = "<group>"; };
+		DB49E240F767E302F505E8759A2EE0D2 /* Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		DB8D52575626BF959B3393AB004510B7 /* UnigramTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnigramTokenizer.swift; sourceTree = "<group>"; };
 		DDA6E85DBE8F2B31B03FDE290D83C99E /* Pods-cocoa-whisper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cocoa-whisper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E0006BAA746BA7F373C496D8D712979E /* cocoa-whisper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-prefix.pch"; sourceTree = "<group>"; };
-		E1197AA1C268476B735F05A5F93293FE /* TokenSampler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TokenSampler.swift; sourceTree = "<group>"; };
-		E949884D38258BD4D657CE953AC71184 /* GenerationConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenerationConfig.swift; sourceTree = "<group>"; };
+		DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LanguageModel.swift; sourceTree = "<group>"; };
 		EA44180BDE685EE81151C19CAFB0DD2A /* Pods-cocoa-whisper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cocoa-whisper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EAB03A88B02B35B0F2BC36A4C3103B9F /* AudioProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AudioProcessor.swift; sourceTree = "<group>"; };
-		F0B6C98C1D724F4CF5AF650BD85F6AF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F19D3990AB68F2B4A3595A30AAAC5BD7 /* Downloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
-		FB2B031ED6B605DDE7856B755F362F05 /* ByteEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ByteEncoder.swift; sourceTree = "<group>"; };
+		EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		ECBC5A8EF90BCE047071837DBC6145DF /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Decoder.swift; sourceTree = "<group>"; };
+		F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopKLogitsWarper.swift; sourceTree = "<group>"; };
+		F8031246DADCBF5D0700208634222FED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F90AB04A1472EC668FE9F757596E9831 /* Tokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
 		FDC5A969E8F8BDB68E6B048126938BB4 /* Pods-cocoa-whisper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2FF3546B0FB455A910A0B77DAC9ABFC5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F742FFDA61E7500BB26D0EA694024108 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56FB2C7A4ED2D2B8353186CE1BC92A7F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D8E9BB61F1E888C6945CD2F1F6D81AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61811958ABE6F07D0B0995E896306973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53DC4F003A1C24002EEECDE30A3CCDB3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,30 +176,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		004137EFD9FC1F6DFE4AFE0AA6058AF7 /* WhisperKit */ = {
+		0B14F2205F4B61D7A1E5C4CE0BD93C50 /* TensorUtils */ = {
 			isa = PBXGroup;
 			children = (
-				34275CEAA4CF1A260653D0CF65BE96E3 /* Sources */,
+				EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */,
+				5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */,
+				951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */,
+				4B9F1BA4A55C37CE09579F4BE37F7D53 /* LogitsWarper */,
 			);
-			path = WhisperKit;
-			sourceTree = "<group>";
-		};
-		0A5D03914069D4106FAA0DE73B258CA1 /* swift-transformers */ = {
-			isa = PBXGroup;
-			children = (
-				46E397E0AFBFB41088DC6455870F2F3E /* Sources */,
-			);
-			path = "swift-transformers";
-			sourceTree = "<group>";
-		};
-		0DA479178E6F39D8F1D520DD80BD6422 /* Hub */ = {
-			isa = PBXGroup;
-			children = (
-				F19D3990AB68F2B4A3595A30AAAC5BD7 /* Downloader.swift */,
-				DAA7E51F481403A2968E1B76D44F9B2E /* Hub.swift */,
-				54B209DC3A1AE62570CF66215167F9D4 /* HubApi.swift */,
-			);
-			path = Hub;
+			name = TensorUtils;
+			path = TensorUtils;
 			sourceTree = "<group>";
 		};
 		1C6ACAD852D8735530E1FEFA7CF59D1B /* Pods-cocoa-whisper_Example */ = {
@@ -221,78 +205,81 @@
 			path = "Target Support Files/Pods-cocoa-whisper_Example";
 			sourceTree = "<group>";
 		};
-		24F9173BBE0660B6A2F63C331CF2E6CB /* LogitsWarper */ = {
+		2090B1E5A522C7E996BB30AB5F8504E9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DA4575AD60CE4DE12E8C6F52AE861BD /* LogitsProcessor.swift */,
-				889471DA29B3A59150010C860C56C168 /* LogitsWarper.swift */,
-				51CA08D9BE7934C378C756E7804C8E72 /* TemperatureLogitsWarper.swift */,
-				73820F59832CBB41E3D4912EF21D91C8 /* TopKLogitsWarper.swift */,
-				4E12069226607AD612457A0249FCD34F /* TopPLogitsWarper.swift */,
-			);
-			path = LogitsWarper;
-			sourceTree = "<group>";
-		};
-		2848AE53C1E1688194E9AA47FBF8988E /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				1F9D414BFA69E650558CE13297E889CC /* AudioEncoder.swift */,
-				EAB03A88B02B35B0F2BC36A4C3103B9F /* AudioProcessor.swift */,
-				AF3571B5876CD3908C61F481E017E4CB /* AudioStreamTranscriber.swift */,
-				9A5EB43D63F50610A8B16AB616ACE4BE /* FeatureExtractor.swift */,
-				2715B42672F7192EA216892519891EBC /* LogitsFilter.swift */,
-				B1C786419361AB115F60B93914E81E14 /* Models.swift */,
-				019E91A3D6A29DE6E48AC0C730B73D57 /* ResultWriter.swift */,
-				B9D87F50C2F129D41F01A103D3BCF49B /* SegmentSeeker.swift */,
-				5FF94BA452D19E03635589BB853DB6B1 /* TextDecoder.swift */,
-				E1197AA1C268476B735F05A5F93293FE /* TokenSampler.swift */,
-				4FB5C4EA4051DC1046DB3921F23FF836 /* Utils.swift */,
-				C878751099AD9974A5C9D17C193CB743 /* WhisperKit.swift */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		2945F5FA9A9F0C72DD45C97B2279835D /* WhisperKit */ = {
-			isa = PBXGroup;
-			children = (
-				2848AE53C1E1688194E9AA47FBF8988E /* Core */,
-			);
-			path = WhisperKit;
-			sourceTree = "<group>";
-		};
-		34275CEAA4CF1A260653D0CF65BE96E3 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				2945F5FA9A9F0C72DD45C97B2279835D /* WhisperKit */,
-			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		378A167AD8D2C884D2E24BB3439EE7A0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				86AC5E47A046FDF1F59525AB5B252A42 /* cocoa-whisper.modulemap */,
-				923A0A8761F389BF20ADDC8749D6E51D /* cocoa-whisper-dummy.m */,
-				1AD41812DBD80729256EA02C6D728BD3 /* cocoa-whisper-Info.plist */,
-				E0006BAA746BA7F373C496D8D712979E /* cocoa-whisper-prefix.pch */,
-				05475236AD769EFE54AE3D1A7B0618EE /* cocoa-whisper-umbrella.h */,
-				24AAD67661BC58F5B5D20C328B5D595F /* cocoa-whisper.debug.xcconfig */,
-				AE19701B1FC32950C327D77B5DEA92B2 /* cocoa-whisper.release.xcconfig */,
+				A372890ADE8914F7273BBC1319F32BF0 /* cocoa-whisper.modulemap */,
+				815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */,
+				BE73E7237104867515A2AC8D1C7A7632 /* cocoa-whisper-Info.plist */,
+				0DACDACBB33EF67E8F7A59233761FF1A /* cocoa-whisper-prefix.pch */,
+				9348D752B911291A512528C922712320 /* cocoa-whisper-umbrella.h */,
+				41D54EEDA4874BE4DCB3FD93BB04A0F0 /* cocoa-whisper.debug.xcconfig */,
+				7B4926ACDE13F4A2EAFA561D1DAEF251 /* cocoa-whisper.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/cocoa-whisper";
 			sourceTree = "<group>";
 		};
-		46E397E0AFBFB41088DC6455870F2F3E /* Sources */ = {
+		2BF75078C02A7A767E3CE372965461CB /* WhisperKit */ = {
 			isa = PBXGroup;
 			children = (
-				72B7671A3D3E287B2776C311DB27453B /* Generation */,
-				0DA479178E6F39D8F1D520DD80BD6422 /* Hub */,
-				6DE7BBBB96D8389CB20B8C4B1A93A905 /* Models */,
-				DE96C65C42C8A4ED5D3977208699138A /* TensorUtils */,
-				9195ADB077B944E328EA226067C81F94 /* Tokenizers */,
+				60E93C16AC21C82179192D6C1D2D8656 /* Sources */,
 			);
-			path = Sources;
+			name = WhisperKit;
+			path = "cocoa-whisper/WhisperKit";
+			sourceTree = "<group>";
+		};
+		35EAF36F11F4F11A0D5FE7956D5305B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */,
+				141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		395B2E636414FE374F886750F82C2496 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				612B2F28715B9624408285ECC7D62110 /* cocoa-whisper.podspec */,
+				F8031246DADCBF5D0700208634222FED /* LICENSE */,
+				94A9F81C93CB020E9FB73917F2124507 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4006F58026636A030977C932DAAA0F3D /* WhisperKit */ = {
+			isa = PBXGroup;
+			children = (
+				88F8404D9241AE92F6995826EF62CCEA /* Core */,
+			);
+			name = WhisperKit;
+			path = WhisperKit;
+			sourceTree = "<group>";
+		};
+		456084F291489D6262028EFF5A8DD6F0 /* Hub */ = {
+			isa = PBXGroup;
+			children = (
+				C29E479D6722F6019FA3AEAB6CC8A532 /* Downloader.swift */,
+				0641EC1FAFD71602E289A5940AEF5FB2 /* Hub.swift */,
+				17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */,
+			);
+			name = Hub;
+			path = Hub;
+			sourceTree = "<group>";
+		};
+		4B9F1BA4A55C37CE09579F4BE37F7D53 /* LogitsWarper */ = {
+			isa = PBXGroup;
+			children = (
+				34F1E7AFE555DF71C141064329D7E79C /* LogitsProcessor.swift */,
+				CF05B4E65BE72F10B0E4900F5C7B8927 /* LogitsWarper.swift */,
+				ADEC2786DCDCEB14CE17B526DBE86ACE /* TemperatureLogitsWarper.swift */,
+				F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */,
+				099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */,
+			);
+			name = LogitsWarper;
+			path = LogitsWarper;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -303,22 +290,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6DE7BBBB96D8389CB20B8C4B1A93A905 /* Models */ = {
+		60E93C16AC21C82179192D6C1D2D8656 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				764185A8C369184EC8D29A4B575220BB /* LanguageModel.swift */,
-				C9234B5F66BDBF75715A34AD040C5D6A /* LanguageModelTypes.swift */,
+				4006F58026636A030977C932DAAA0F3D /* WhisperKit */,
 			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		72B7671A3D3E287B2776C311DB27453B /* Generation */ = {
-			isa = PBXGroup;
-			children = (
-				7D0955A23F53F9F186FFEEC441084472 /* Generation.swift */,
-				E949884D38258BD4D657CE953AC71184 /* GenerationConfig.swift */,
-			);
-			path = Generation;
+			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		7B8B24597636CFC7366149F37DE19403 /* Targets Support Files */ = {
@@ -330,48 +308,61 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9195ADB077B944E328EA226067C81F94 /* Tokenizers */ = {
+		88F8404D9241AE92F6995826EF62CCEA /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				3E44BA6B287195EF8E144CE111B3424F /* BertTokenizer.swift */,
-				A1CEE0311361E33593122BD064405F48 /* BPETokenizer.swift */,
-				FB2B031ED6B605DDE7856B755F362F05 /* ByteEncoder.swift */,
-				4F2CD3FA2E07A41DB06955C9932D51EC /* Decoder.swift */,
-				A949F5D7A00CE17DC02D5B09EF257458 /* Normalizer.swift */,
-				D1289C079E64254C273A9BFE90B668BA /* PostProcessor.swift */,
-				6B295BEDD2B1C90CE6308FB3DE57EDD7 /* PreTokenizer.swift */,
-				91864AEC4A4DC4A7F4B0C0DC2C74B44C /* Tokenizer.swift */,
-				356EEB086324DD74FE1BED81FCFA64F1 /* TokenLattice.swift */,
-				AC2B0D526877AA0C0E723FBA60AD3DC6 /* Trie.swift */,
-				912CB2E66EC0970E9539EB7C38CA97CB /* UnigramTokenizer.swift */,
-				625E7B9CEA433642B83C42FD8A31D389 /* _Utils.swift */,
+				1AAFAB56B90E43AF0D3AE62D9EE41C8B /* AudioEncoder.swift */,
+				8E9B5A0E2B908B3E3C5E8964B56F4400 /* AudioProcessor.swift */,
+				AE46CAEC2CE2D2B6B31C5BE99A36559B /* AudioStreamTranscriber.swift */,
+				A33153A095368BDFD49FA10C31C01D15 /* FeatureExtractor.swift */,
+				D680C9E7B71EBACFC33AF6803BDC2EB1 /* LogitsFilter.swift */,
+				705BAEA0C2CF565DC31D2ACFBCBDAD78 /* Models.swift */,
+				A3187F8DBF45C51137EC1076FD7FB0A2 /* ResultWriter.swift */,
+				539DD8E69B625A939BAEAF7F46BF2433 /* SegmentSeeker.swift */,
+				6A8CB999C3CD676A0BA64D3C80661290 /* TextDecoder.swift */,
+				40EFBA8640BAEA66A102DA7FABA61CFC /* TokenSampler.swift */,
+				DB49E240F767E302F505E8759A2EE0D2 /* Utils.swift */,
+				6CEF3E4B34F22AE525E9BE9ED7206308 /* WhisperKit.swift */,
 			);
-			path = Tokenizers;
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		93AA2CF889368718237132113C0395A2 /* swift-transformers */ = {
+			isa = PBXGroup;
+			children = (
+				E5F40EE6A28DBA32B71E1D6401AAE2AF /* Sources */,
+			);
+			name = "swift-transformers";
+			path = "cocoa-whisper/swift-transformers";
 			sourceTree = "<group>";
 		};
 		94F3D52980C87B5B937A9952C4C9C43A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83CBEDA11DAF378F0B58667A39F14157 /* cocoa_whisper.framework */,
+				83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */,
 				0A37E7165B9DFD10285FCC213C385270 /* Pods-cocoa-whisper_Example */,
 				5610B5BD497FA79BF0BEF917C76D4B7B /* Pods-cocoa-whisper_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AB7F9931137F443748678D096D896FDD /* Classes */ = {
+		B3903335075D62473982841988167AFD /* cocoa-whisper */ = {
 			isa = PBXGroup;
 			children = (
-				3002985388A86437FF50D35E0765BB72 /* ReplaceMe.swift */,
+				395B2E636414FE374F886750F82C2496 /* Pod */,
+				2090B1E5A522C7E996BB30AB5F8504E9 /* Support Files */,
+				93AA2CF889368718237132113C0395A2 /* swift-transformers */,
+				2BF75078C02A7A767E3CE372965461CB /* WhisperKit */,
 			);
-			name = Classes;
-			path = "cocoa-whisper/Classes";
+			name = "cocoa-whisper";
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		C82D884FF7640002CFB02F09B3D4F932 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F5816A57A3A546FE2A54B2A35A8185FC /* cocoa-whisper */,
+				B3903335075D62473982841988167AFD /* cocoa-whisper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -395,15 +386,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DE96C65C42C8A4ED5D3977208699138A /* TensorUtils */ = {
+		E5F40EE6A28DBA32B71E1D6401AAE2AF /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D91334485E28C4CC8385F4956D73C677 /* Math.swift */,
-				476DF27D940BE68489FCA0540956BF72 /* MLMultiArray+Utils.swift */,
-				8F9371A111BDFF040B6A941B7D93B33F /* MLShapedArray+Utils.swift */,
-				24F9173BBE0660B6A2F63C331CF2E6CB /* LogitsWarper */,
+				FF043A920E300DCA3DF69F47DC8C0FF5 /* Generation */,
+				456084F291489D6262028EFF5A8DD6F0 /* Hub */,
+				35EAF36F11F4F11A0D5FE7956D5305B5 /* Models */,
+				0B14F2205F4B61D7A1E5C4CE0BD93C50 /* TensorUtils */,
+				FAB8FFE4A914FFC1D35CEA43F5807A90 /* Tokenizers */,
 			);
-			path = TensorUtils;
+			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		F1EBDFD5981F7576AB043D812A28A0A9 /* Pods-cocoa-whisper_Tests */ = {
@@ -422,36 +415,34 @@
 			path = "Target Support Files/Pods-cocoa-whisper_Tests";
 			sourceTree = "<group>";
 		};
-		F5816A57A3A546FE2A54B2A35A8185FC /* cocoa-whisper */ = {
+		FAB8FFE4A914FFC1D35CEA43F5807A90 /* Tokenizers */ = {
 			isa = PBXGroup;
 			children = (
-				AB7F9931137F443748678D096D896FDD /* Classes */,
-				F6615FA54FA0007710314AC1ABB9B17E /* deps */,
-				FC574FD62C6ED8A0FB0CD42E251194FB /* Pod */,
-				378A167AD8D2C884D2E24BB3439EE7A0 /* Support Files */,
+				623209588FF81A22FFD6F60F53AD859B /* _Utils.swift */,
+				C66050D4431C07E336B6EAB975814121 /* BertTokenizer.swift */,
+				278BDA93F8E12BA267C4E1FE2A3C0DCE /* BPETokenizer.swift */,
+				7785C14A57EE8DD7FF266654006BD931 /* ByteEncoder.swift */,
+				ECBC5A8EF90BCE047071837DBC6145DF /* Decoder.swift */,
+				C8BDEE63482FD3C46496EA774A8CEC6E /* Normalizer.swift */,
+				A6C931138C24E5A6133117AC2357C067 /* PostProcessor.swift */,
+				50A15E03BC641CC470A93EC4EFC31524 /* PreTokenizer.swift */,
+				F90AB04A1472EC668FE9F757596E9831 /* Tokenizer.swift */,
+				9415012EC6F1E3D984B0B450C1BB371F /* TokenLattice.swift */,
+				C2FC7F8CB32535589E43F3F6C5BE6F8C /* Trie.swift */,
+				DB8D52575626BF959B3393AB004510B7 /* UnigramTokenizer.swift */,
 			);
-			name = "cocoa-whisper";
-			path = ../..;
+			name = Tokenizers;
+			path = Tokenizers;
 			sourceTree = "<group>";
 		};
-		F6615FA54FA0007710314AC1ABB9B17E /* deps */ = {
+		FF043A920E300DCA3DF69F47DC8C0FF5 /* Generation */ = {
 			isa = PBXGroup;
 			children = (
-				0A5D03914069D4106FAA0DE73B258CA1 /* swift-transformers */,
-				004137EFD9FC1F6DFE4AFE0AA6058AF7 /* WhisperKit */,
+				0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */,
+				0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */,
 			);
-			name = deps;
-			path = "cocoa-whisper/deps";
-			sourceTree = "<group>";
-		};
-		FC574FD62C6ED8A0FB0CD42E251194FB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				16E35BCA190B0901C81EB8079F100956 /* cocoa-whisper.podspec */,
-				F0B6C98C1D724F4CF5AF650BD85F6AF6 /* LICENSE */,
-				98F850D43019E77DA0A4168A9297F8D3 /* README.md */,
-			);
-			name = Pod;
+			name = Generation;
+			path = Generation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -473,11 +464,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E54A63BCFD8CDB5174E62B229CC435A3 /* Headers */ = {
+		DFF3F115F8C2A96F1E57CE2D90B78DB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A9514220C94A9E9E5C6EDA81E53B96 /* cocoa-whisper-umbrella.h in Headers */,
+				29565CA447F310696A58C70F736E77AF /* cocoa-whisper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +487,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				378FE536B683C2752C2AE993F7AE4A71 /* PBXTargetDependency */,
+				F462412B12A4EDC423B1FE76DB1ECBF8 /* PBXTargetDependency */,
 			);
 			name = "Pods-cocoa-whisper_Tests";
 			productName = Pods_cocoa_whisper_Tests;
@@ -515,7 +506,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				1D975E81250CE5D2964B1991191C66A4 /* PBXTargetDependency */,
+				D8ACFE95E44AE54FEB76D29F8CCE4BB3 /* PBXTargetDependency */,
 			);
 			name = "Pods-cocoa-whisper_Example";
 			productName = Pods_cocoa_whisper_Example;
@@ -524,12 +515,12 @@
 		};
 		82FF6E2B569E4DE5A009303F1E5F34C5 /* cocoa-whisper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D2D0DF0A935DE1BCF4B2B281C6874D93 /* Build configuration list for PBXNativeTarget "cocoa-whisper" */;
+			buildConfigurationList = 303886F2D1DBC2659FCC7E6FAB32D2FB /* Build configuration list for PBXNativeTarget "cocoa-whisper" */;
 			buildPhases = (
-				E54A63BCFD8CDB5174E62B229CC435A3 /* Headers */,
-				33D049E54CB47928865EDDCEF0069B38 /* Sources */,
-				2FF3546B0FB455A910A0B77DAC9ABFC5 /* Frameworks */,
-				DF8BB56D2B24E8AE75B5902AAB9518E5 /* Resources */,
+				DFF3F115F8C2A96F1E57CE2D90B78DB9 /* Headers */,
+				759A14138C8DFCB89B08BE901BE7C1D5 /* Sources */,
+				61811958ABE6F07D0B0995E896306973 /* Frameworks */,
+				A298EE6C82A03355367282A77C852277 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -537,7 +528,7 @@
 			);
 			name = "cocoa-whisper";
 			productName = cocoa_whisper;
-			productReference = 83CBEDA11DAF378F0B58667A39F14157 /* cocoa_whisper.framework */;
+			productReference = 83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -548,14 +539,9 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
-				TargetAttributes = {
-					82FF6E2B569E4DE5A009303F1E5F34C5 = {
-						LastSwiftMigration = "";
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -582,14 +568,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBFEA52C667606377A2CCB969AAA1B65 /* Resources */ = {
+		A298EE6C82A03355367282A77C852277 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DF8BB56D2B24E8AE75B5902AAB9518E5 /* Resources */ = {
+		DBFEA52C667606377A2CCB969AAA1B65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -599,60 +585,58 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		33D049E54CB47928865EDDCEF0069B38 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F0AE7776395BE257BB5F8CE2E6230C1 /* AudioEncoder.swift in Sources */,
-				5D7F1F13234B0CA9DDEB29C4FA38F1B0 /* AudioProcessor.swift in Sources */,
-				3178D3A764E9CA8AB5511F1419CCAA67 /* AudioStreamTranscriber.swift in Sources */,
-				1E6FC763BE49C9A02CC4FC12E0BF6971 /* BertTokenizer.swift in Sources */,
-				28B382C1C091085F5E21B5AE2B150872 /* BPETokenizer.swift in Sources */,
-				6DAD7E8928E228965BFE7C9AE6184B72 /* ByteEncoder.swift in Sources */,
-				61DAB4D15EC8EC522C9B97271B19C789 /* cocoa-whisper-dummy.m in Sources */,
-				8CBA0B9630C54098074DF2A0ABE3813C /* Decoder.swift in Sources */,
-				6A99D3C3A5E63672D7A1C671E10C5D3E /* Downloader.swift in Sources */,
-				658317FCCAE37B489FB17E9A62262FF7 /* FeatureExtractor.swift in Sources */,
-				F216529F74257D475D407CD014E41C6F /* Generation.swift in Sources */,
-				0E7DF3A063B89B6AC3A0FDC1CAFBDF14 /* GenerationConfig.swift in Sources */,
-				53B6D0B816A32E4B76344DB9AC73B2FE /* Hub.swift in Sources */,
-				58C9F44E4E4CB84A23F4035990157E91 /* HubApi.swift in Sources */,
-				1430405C1D12C71D5900DEBF7580096C /* LanguageModel.swift in Sources */,
-				ADE4524CACA8AF10B18FACF369F03799 /* LanguageModelTypes.swift in Sources */,
-				B6A89D514AA38780A3C98E5A4C298FAD /* LogitsFilter.swift in Sources */,
-				7A5BEBB32BAF64BE004F6096 /* _Utils.swift in Sources */,
-				F97585EEEAB6EF854292153982AC3F4A /* LogitsProcessor.swift in Sources */,
-				4CE2463BEC852CC6F0B4AED086F59B00 /* LogitsWarper.swift in Sources */,
-				709D9E431FB2C27F691253B2A0B9BBB8 /* Math.swift in Sources */,
-				4CE44A1CAA02117316D4E0AE8F9E3DAA /* MLMultiArray+Utils.swift in Sources */,
-				C1C2A17D7A8756C9F9FBA7D828535F65 /* MLShapedArray+Utils.swift in Sources */,
-				557A03E09D0ED161839DE8A35773C6C9 /* Models.swift in Sources */,
-				E0C88ADD8A35D42D0A0D236DBBB02987 /* Normalizer.swift in Sources */,
-				7A79FF2741D5EE20CA75A163668912D4 /* PostProcessor.swift in Sources */,
-				D1BEE54EF3331EC3062F76FC1397CC13 /* PreTokenizer.swift in Sources */,
-				A1E46CE07E010E615719D2985B18FABA /* ReplaceMe.swift in Sources */,
-				7D04F94FB44D78525C8750F9A1742FB1 /* ResultWriter.swift in Sources */,
-				4A57F350DEE8236F0816CCC97F9AE6A7 /* SegmentSeeker.swift in Sources */,
-				DF7EC2C2667F00C9B5082ECEA77F2B40 /* TemperatureLogitsWarper.swift in Sources */,
-				1BF452318BACB9D46637CCE85D9367D9 /* TextDecoder.swift in Sources */,
-				DEB36B3BB4798FD789B02742AF5AF172 /* Tokenizer.swift in Sources */,
-				6D8E49F42494C1D3146DD7D449E42582 /* TokenLattice.swift in Sources */,
-				74F0521C2CBEFC92A30F10834E900F10 /* TokenSampler.swift in Sources */,
-				AF46FE052A2F7FD11E68480D3C8721BC /* TopKLogitsWarper.swift in Sources */,
-				8E9F12BC9B4BF0B67170B81549F7ED77 /* TopPLogitsWarper.swift in Sources */,
-				581F9F9192C50D8C6D1ABC81D9D9F971 /* Trie.swift in Sources */,
-				879FB5240BB846D0BA6D74FAA9D15A10 /* UnigramTokenizer.swift in Sources */,
-				75E24FBA91354E5AAD504B23A582BC91 /* Utils.swift in Sources */,
-				75E24FBA91354E5AAD504B23A582BC91 /* Utils.swift in Sources */,
-				C070759D8877D117D8B186A0ADB7EDB9 /* WhisperKit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		60D8A14B11FFE8C36B6863F514A79F4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9C27AB85CDD7353D9E73D17DDA8F99F2 /* Pods-cocoa-whisper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		759A14138C8DFCB89B08BE901BE7C1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BC216DD98E9B6E395046BBC9170EBB /* _Utils.swift in Sources */,
+				86FC156E208765E4AED509819EA47EF1 /* AudioEncoder.swift in Sources */,
+				6AA9EAD6182C739B9F237E00BC999C06 /* AudioProcessor.swift in Sources */,
+				762BA47F759BF182EC0907977627F86F /* AudioStreamTranscriber.swift in Sources */,
+				ED145431927EDC3CCEC414EC78DC19B5 /* BertTokenizer.swift in Sources */,
+				A8AFF85D3481E32A1695F2E3B3ABFEA3 /* BPETokenizer.swift in Sources */,
+				720FF100C9CA564909D8B47E35153EF4 /* ByteEncoder.swift in Sources */,
+				A8E982FE1DE33B619ED72F2B1655A4D1 /* cocoa-whisper-dummy.m in Sources */,
+				552DCAE9D1B0A8F8D2F1129FDBB80DBE /* Decoder.swift in Sources */,
+				5590FBBE4FE79303A14661C8025174FE /* Downloader.swift in Sources */,
+				5DC57506E302F88F99533A3503840D2E /* FeatureExtractor.swift in Sources */,
+				0CD7CE583AEC7A9A1DF706E620C27BCC /* Generation.swift in Sources */,
+				57E01198AA131C63831224680A4FB6E6 /* GenerationConfig.swift in Sources */,
+				03C65604A0A65B92C7F5E5D0035F89AB /* Hub.swift in Sources */,
+				EDCF12BC5E35AAB90B82B39AC40D4A00 /* HubApi.swift in Sources */,
+				00E034E005F35D688DC443AA69FAA391 /* LanguageModel.swift in Sources */,
+				0A1E4D55CC47884AF6493A1BD8158984 /* LanguageModelTypes.swift in Sources */,
+				857E3E4C07BE4CB2CE86685CAAC2F5AB /* LogitsFilter.swift in Sources */,
+				62A2A9352D79CCAD25F01780F5C4B69C /* LogitsProcessor.swift in Sources */,
+				135927B63BCF607659E281C976816DCA /* LogitsWarper.swift in Sources */,
+				BA5B0E12232E0138C42E68171C176CA6 /* Math.swift in Sources */,
+				FD1FA613CEAA6BE6C2158053FF39225F /* MLMultiArray+Utils.swift in Sources */,
+				900EB5B92A82C5FF50205CA7C6E65F9E /* MLShapedArray+Utils.swift in Sources */,
+				DE4BE6E91AFD6E3484C9DCDD110C00AE /* Models.swift in Sources */,
+				D39307D772C71CD3A28C4667CCD7452F /* Normalizer.swift in Sources */,
+				CBAB13F687526655C0253EFF9DC18EFE /* PostProcessor.swift in Sources */,
+				FB209EB8B77243F4138819AEA343D6DF /* PreTokenizer.swift in Sources */,
+				188E862DECBDAE8C9E6AA61EC0F7E84D /* ResultWriter.swift in Sources */,
+				EC871BCFADA936D248E637F8FD665365 /* SegmentSeeker.swift in Sources */,
+				1D6C1CE0F3867E82F44BD0C2C9BB42F3 /* TemperatureLogitsWarper.swift in Sources */,
+				8A65F9A1CBE4FB87812A08AF48D4599A /* TextDecoder.swift in Sources */,
+				98C003EC61BAEF16CD90A97EBB83C8D7 /* Tokenizer.swift in Sources */,
+				527A682E8958586D43BAC226FB80D986 /* TokenLattice.swift in Sources */,
+				D1CC5E25EB2CE03FA188008BBDDDBD3C /* TokenSampler.swift in Sources */,
+				869DB57BEC640A61688221AC7B39FD4F /* TopKLogitsWarper.swift in Sources */,
+				6D05ABCDAC9EC5E6BF28B2987AE30DFB /* TopPLogitsWarper.swift in Sources */,
+				C7CA2F350D430F43F2D1531EAE76AF56 /* Trie.swift in Sources */,
+				E279AFCBC5C14438FBED7BE9F7418608 /* UnigramTokenizer.swift in Sources */,
+				FA4502FD9BA869A12565F1325CE5DB58 /* Utils.swift in Sources */,
+				B352D209F4BEE6E1B71D59E41BE0A536 /* WhisperKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -667,27 +651,61 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1D975E81250CE5D2964B1991191C66A4 /* PBXTargetDependency */ = {
+		D8ACFE95E44AE54FEB76D29F8CCE4BB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "cocoa-whisper";
 			target = 82FF6E2B569E4DE5A009303F1E5F34C5 /* cocoa-whisper */;
-			targetProxy = E6C240E7B9C9FDEDB8B8A493AB800094 /* PBXContainerItemProxy */;
+			targetProxy = A01C8C6CDED486835A9A83EB9B91CA09 /* PBXContainerItemProxy */;
 		};
-		378FE536B683C2752C2AE993F7AE4A71 /* PBXTargetDependency */ = {
+		F462412B12A4EDC423B1FE76DB1ECBF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-cocoa-whisper_Example";
 			target = 5D395FE07E689555068ECCBF067DDCFD /* Pods-cocoa-whisper_Example */;
-			targetProxy = D92C484DABD5BB84594E521140D9F9AA /* PBXContainerItemProxy */;
+			targetProxy = 40F654465D0B6E6E01BDCF24C89B6E05 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2E2252CFB5EEC596A902C2AD90B99EC6 /* Release */ = {
+		3CFB6767BE6E72B7AE30D1DD3265F823 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41D54EEDA4874BE4DCB3FD93BB04A0F0 /* cocoa-whisper.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/cocoa-whisper/cocoa-whisper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper.modulemap";
+				PRODUCT_MODULE_NAME = cocoa_whisper;
+				PRODUCT_NAME = cocoa_whisper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4098E7E6FBD971C64B1032FEBA38E7F9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12CEF06036813BD2F3EEC6C7550518FC /* Pods-cocoa-whisper_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -700,7 +718,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-cocoa-whisper_Example/Pods-cocoa-whisper_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-cocoa-whisper_Example/Pods-cocoa-whisper_Example.modulemap";
 				OTHER_LDFLAGS = "";
@@ -783,79 +805,11 @@
 			};
 			name = Debug;
 		};
-		7458E8178FFBD5ECD335D526996F1F51 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C1426990AACC0892BF6A3E787CA1A30 /* Pods-cocoa-whisper_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cocoa-whisper_Tests/Pods-cocoa-whisper_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cocoa-whisper_Tests/Pods-cocoa-whisper_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A5FC93E1B96B7FC7471DCC9E7905F2BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24AAD67661BC58F5B5D20C328B5D595F /* cocoa-whisper.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/cocoa-whisper/cocoa-whisper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper.modulemap";
-				PRODUCT_MODULE_NAME = cocoa_whisper;
-				PRODUCT_NAME = cocoa_whisper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BA61761DAB5C0302EA8BD7EE9E9C2D03 /* Debug */ = {
+		A25563B0221AD63AB113F2F8B834CD00 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA44180BDE685EE81151C19CAFB0DD2A /* Pods-cocoa-whisper_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -868,7 +822,11 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-cocoa-whisper_Tests/Pods-cocoa-whisper_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-cocoa-whisper_Tests/Pods-cocoa-whisper_Tests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -884,11 +842,11 @@
 			};
 			name = Debug;
 		};
-		D5B8BD76D0E827E4D5462614658D9935 /* Release */ = {
+		A352C07F2DE44B989FB2059C23052E3D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE19701B1FC32950C327D77B5DEA92B2 /* cocoa-whisper.release.xcconfig */;
+			baseConfigurationReference = 4C1426990AACC0892BF6A3E787CA1A30 /* Pods-cocoa-whisper_Tests.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -898,24 +856,66 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/cocoa-whisper/cocoa-whisper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-cocoa-whisper_Tests/Pods-cocoa-whisper_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper.modulemap";
-				PRODUCT_MODULE_NAME = cocoa_whisper;
-				PRODUCT_NAME = cocoa_whisper;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cocoa-whisper_Tests/Pods-cocoa-whisper_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		DAA1897419FFC6BE8CA0A559E2A08202 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EBF6C5DAF98274B1B4FFA7698E4500 /* Pods-cocoa-whisper_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cocoa-whisper_Example/Pods-cocoa-whisper_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cocoa-whisper_Example/Pods-cocoa-whisper_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		E873CA97BD124B21839AF13C9BE1CD18 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -972,18 +972,17 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		FF3E7DFAEA0EB251DA16138DF06349CD /* Debug */ = {
+		F16A5C2C1857484EBD8AAC1D89B5F67F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17EBF6C5DAF98274B1B4FFA7698E4500 /* Pods-cocoa-whisper_Example.debug.xcconfig */;
+			baseConfigurationReference = 7B4926ACDE13F4A2EAFA561D1DAEF251 /* cocoa-whisper.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -993,24 +992,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-cocoa-whisper_Example/Pods-cocoa-whisper_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/cocoa-whisper/cocoa-whisper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-cocoa-whisper_Example/Pods-cocoa-whisper_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/cocoa-whisper/cocoa-whisper.modulemap";
+				PRODUCT_MODULE_NAME = cocoa_whisper;
+				PRODUCT_NAME = cocoa_whisper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1018,8 +1021,17 @@
 		0C5B254FA657E8ABEAAB0FDCD36E3ACF /* Build configuration list for PBXNativeTarget "Pods-cocoa-whisper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FF3E7DFAEA0EB251DA16138DF06349CD /* Debug */,
-				2E2252CFB5EEC596A902C2AD90B99EC6 /* Release */,
+				DAA1897419FFC6BE8CA0A559E2A08202 /* Debug */,
+				4098E7E6FBD971C64B1032FEBA38E7F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303886F2D1DBC2659FCC7E6FAB32D2FB /* Build configuration list for PBXNativeTarget "cocoa-whisper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CFB6767BE6E72B7AE30D1DD3265F823 /* Debug */,
+				F16A5C2C1857484EBD8AAC1D89B5F67F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1033,20 +1045,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2D0DF0A935DE1BCF4B2B281C6874D93 /* Build configuration list for PBXNativeTarget "cocoa-whisper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A5FC93E1B96B7FC7471DCC9E7905F2BB /* Debug */,
-				D5B8BD76D0E827E4D5462614658D9935 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		E660B903D70F09520907B654BD5A12EC /* Build configuration list for PBXNativeTarget "Pods-cocoa-whisper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA61761DAB5C0302EA8BD7EE9E9C2D03 /* Debug */,
-				7458E8178FFBD5ECD335D526996F1F51 /* Release */,
+				A25563B0221AD63AB113F2F8B834CD00 /* Debug */,
+				A352C07F2DE44B989FB2059C23052E3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -35,5 +35,5 @@ Carthage/Build
 #
 # Pods/
 
-cocoa-whisper/deps
+cocoa-whisper/*
 

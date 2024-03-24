@@ -10,6 +10,8 @@ import Foundation
 import cocoa_whisper
 
 func foo() async {
-//    let pipe = try? await WhisperKit()
+    let pipe = try? await WhisperKit()
+    let transcription = try? await pipe!.transcribe(audioPath: "path/to/your/audio.{wav,mp3,m4a,flac}")?.text
+        print(transcription)
 //    foo()
 }

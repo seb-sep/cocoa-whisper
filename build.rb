@@ -1,21 +1,28 @@
 require 'xcodeproj'
 require 'find'
+require 'set'
 
 # create new pod
 # %x{echo -e "iOS\nSwift\nYes\nNone\nNo" | pod lib create cocoa-whisper}
 
-# Pull fresh version of WhisperKit and swift-transformers into pod folder
 pod_name = 'cocoa-whisper'
-if Dir.exist?("#{pod_name}/WhisperKit")
-  %x{rm -rf #{pod_name}/WhisperKit}
-end
-# Dir.mkdir(deps_path)
-Dir.chdir(pod_name) do
-  whisperkit_repo = "git@github.com:argmaxinc/WhisperKit.git"
-  tf_repo = "git@github.com:huggingface/swift-transformers.git"
-  %x{git clone #{whisperkit_repo}}
-  %x{git clone #{tf_repo}}
-end
+
+# remove assets and classes folder
+%x{rm -rf #{pod_name}/Assets #{pod_name}/Classes}
+
+# Pull fresh version of WhisperKit and swift-transformers into pod folder
+# if Dir.exist?("#{pod_name}/WhisperKit")
+#     %x{rm -rf #{pod_name}/WhisperKit}
+# end
+# if Dir.exist?("#{pod_name}/swift-transformers")
+#   %x{rm -rf #{pod_name}/swift-transformers}
+# end
+# Dir.chdir(pod_name) do
+#   whisperkit_repo = "git@github.com:argmaxinc/WhisperKit.git"
+#   tf_repo = "git@github.com:huggingface/swift-transformers.git"
+#   %x{git clone #{whisperkit_repo}}
+#   %x{git clone #{tf_repo}}
+# end
 
 
 # Remove all files and folders from current directory path except those in the items array
@@ -62,7 +69,7 @@ def remove_imports(search_path, imports)
         modified_content.each { |line| file.puts(line) }
       end
     end
-    puts "Processed: #{path}"
+    # puts "Processed: #{path}"
   end
 end
 
@@ -91,14 +98,25 @@ group.clear
 # cur_dir: the current path in the directory to copy
 # acc_path: the path that accumulates in recursive calls
 # group: the Xcode group to copy into
-def add_code(cur_dir, acc_path, group)
+# seen_files: a set of files that have already been added to the project
+def add_code(cur_dir, acc_path, group, seen_files=Set.new())
   Dir.glob("#{cur_dir}/*").each do |path|
     if File.file?(path) && File.extname(path) == '.swift'
       # puts "File: #{path}"
-      group.new_reference(path)
+      name = File.basename(path)
+      # rename file if there's another one with the same name by appending an underscore
+      if seen_files.include?(name)
+        new_path = File.dirname(path) + '/_' + name
+        File.rename(path, new_path)
+        seen_files.add('_' + name)
+        group.new_reference(new_path)
+      else
+        seen_files.add(name)
+        group.new_reference(path)
+      end
     elsif File.directory?(path)
       # puts "Directory: #{path}"
-      add_code(path, "#{acc_path}/#{File.basename(path)}", group.new_group(File.basename(path)))
+      add_code(path, "#{acc_path}/#{File.basename(path)}", group.new_group(File.basename(path)), seen_files)
     end
   end
 end
@@ -109,6 +127,7 @@ add_code(pod_name, "", group)
 project.save
 
 # Run pod install
-Dir.chdir('/Example') do
+# system('ls')
+Dir.chdir('Example') do
   %x{pod install}
 end

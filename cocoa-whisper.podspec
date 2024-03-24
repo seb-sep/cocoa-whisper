@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '17.0'
 
-  s.source_files = 'cocoa-whisper/Classes/**/*.swift', 'cocoa-whisper/deps/**/*.swift'
+  s.source_files = 'cocoa-whisper/**/*.swift'
 
   # s.resource_bundles = {
   #   'cocoa-whisper' => ['cocoa-whisper/Assets/*.png']
