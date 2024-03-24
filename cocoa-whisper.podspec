@@ -32,6 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '16.0'
 
   s.source_files = 'cocoa-whisper/**/*.swift'
+  # s.source_files = 'cocoa-whisper/deps/**/*.swift'
 
   s.swift_version = '5.0'
 
