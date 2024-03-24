@@ -33,7 +33,7 @@ class Tests: XCTestCase {
             let transcription = try await pipe.transcribe(audioPath: path)
             XCTAssertNotNil(transcription)
             let val = transcription!.text
-            XCTAssertEqual(val, "Hello world")
+            XCTAssertEqual(val, "Test Voice Recording for Swiftly App.")
         } catch {
             print(error)
         }
