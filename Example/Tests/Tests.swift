@@ -1,4 +1,5 @@
 import XCTest
+import cocoa_whisper
 
 class Tests: XCTestCase {
     
@@ -23,5 +24,20 @@ class Tests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    func testWhisperKit() async {
+        let path = Bundle.main.path(forResource: "test", ofType: "mp3")!
+        do {
+            let pipe = try await WhisperKit()
+            XCTAssertNotNil(pipe)
+            let transcription = try await pipe.transcribe(audioPath: path)
+            XCTAssertNotNil(transcription)
+            let val = transcription!.text
+            XCTAssertEqual(val, "Hello world")
+        } catch {
+            print(error)
+        }
+    }
+    
     
 }

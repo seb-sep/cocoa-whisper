@@ -9,9 +9,17 @@
 import Foundation
 import cocoa_whisper
 
-func foo() async {
+func foo() async -> String {
     let pipe = try? await WhisperKit()
-    let transcription = try? await pipe!.transcribe(audioPath: "path/to/your/audio.{wav,mp3,m4a,flac}")?.text
-        print(transcription)
-//    foo()
+    let transcription = try? await pipe!.transcribe(audioPath: "test.mp3")?.text
+    return transcription!!
+}
+
+func fetchStringAsync(completion: @escaping (String) -> Void) async {
+    // Simulate an asynchronous task, e.g., network request
+    let fetchedString = await foo()
+    DispatchQueue.global(qos: .background).async {
+        // Simulate a delay
+        completion(fetchedString)
+    }
 }

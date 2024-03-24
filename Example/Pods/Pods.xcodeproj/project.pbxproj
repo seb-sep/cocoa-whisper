@@ -99,7 +99,7 @@
 		5610B5BD497FA79BF0BEF917C76D4B7B /* Pods-cocoa-whisper_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-cocoa-whisper_Tests"; path = Pods_cocoa_whisper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		56D9D8FCCACB150DA2B4D98A06CAFCF2 /* Pods-cocoa-whisper_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Example-Info.plist"; sourceTree = "<group>"; };
 		5A9A099603BE3FB7C0D0224DD66A2CDF /* MLMultiArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Utils.swift"; sourceTree = "<group>"; };
-		612B2F28715B9624408285ECC7D62110 /* cocoa-whisper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "cocoa-whisper.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		612B2F28715B9624408285ECC7D62110 /* cocoa-whisper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "cocoa-whisper.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		62D575F504293AD2528054C149A41EAD /* Pods-cocoa-whisper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cocoa-whisper_Tests.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7650F33AD05C31A69A04BFE536805A96 /* WhisperKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WhisperKit.swift; sourceTree = "<group>"; };
@@ -108,13 +108,13 @@
 		7B4926ACDE13F4A2EAFA561D1DAEF251 /* cocoa-whisper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "cocoa-whisper.release.xcconfig"; sourceTree = "<group>"; };
 		7BFB9134A5255DC0BA1E5D19EDB497D4 /* Pods-cocoa-whisper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		815F46B59743BEE5DD7F37A5D971CFCA /* cocoa-whisper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "cocoa-whisper-dummy.m"; sourceTree = "<group>"; };
-		83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "cocoa-whisper"; path = cocoa_whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83CBEDA11DAF378F0B58667A39F14157 /* cocoa_whisper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = cocoa_whisper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		854E38954B11F81E29EA93EE3D740580 /* TextDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextDecoder.swift; sourceTree = "<group>"; };
 		8F0A2C90ABF7B31F1552BC2A417C59C8 /* Pods-cocoa-whisper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cocoa-whisper_Example-umbrella.h"; sourceTree = "<group>"; };
 		9348D752B911291A512528C922712320 /* cocoa-whisper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "cocoa-whisper-umbrella.h"; sourceTree = "<group>"; };
-		94A9F81C93CB020E9FB73917F2124507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		94A9F81C93CB020E9FB73917F2124507 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MLShapedArray+Utils.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E49DEA739B766649B35DD51F6E0AAEE /* ByteEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ByteEncoder.swift; sourceTree = "<group>"; };
 		A0AC59501A4FADA42595367959F9E4CF /* SegmentSeeker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SegmentSeeker.swift; sourceTree = "<group>"; };
 		A372890ADE8914F7273BBC1319F32BF0 /* cocoa-whisper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "cocoa-whisper.modulemap"; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		EB3718F19A9F62E9C1493633F1E3B197 /* Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		EB96471B454B952172183CE2400B43F9 /* BPETokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BPETokenizer.swift; sourceTree = "<group>"; };
 		F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TopKLogitsWarper.swift; sourceTree = "<group>"; };
-		F8031246DADCBF5D0700208634222FED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F8031246DADCBF5D0700208634222FED /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		FC0F9A4401C4B2FBABABE4A720360911 /* PreTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PreTokenizer.swift; sourceTree = "<group>"; };
 		FD21BBCDF5238965F679CEE8D7BA0218 /* UnigramTokenizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UnigramTokenizer.swift; sourceTree = "<group>"; };
 		FDC5A969E8F8BDB68E6B048126938BB4 /* Pods-cocoa-whisper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cocoa-whisper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -184,7 +184,6 @@
 				951BD1027D47FDC57357809FADC4EEB1 /* MLShapedArray+Utils.swift */,
 				4B9F1BA4A55C37CE09579F4BE37F7D53 /* LogitsWarper */,
 			);
-			name = TensorUtils;
 			path = TensorUtils;
 			sourceTree = "<group>";
 		};
@@ -235,7 +234,6 @@
 				DEE71EDF20BB077C858C13230082266F /* LanguageModel.swift */,
 				141D5EE1283AF7F1F3F6BF09519AB77E /* LanguageModelTypes.swift */,
 			);
-			name = Models;
 			path = Models;
 			sourceTree = "<group>";
 		};
@@ -254,7 +252,6 @@
 			children = (
 				659370A619F47D5964C1B9E52F95B5B8 /* Core */,
 			);
-			name = WhisperKit;
 			path = WhisperKit;
 			sourceTree = "<group>";
 		};
@@ -265,7 +262,6 @@
 				0641EC1FAFD71602E289A5940AEF5FB2 /* Hub.swift */,
 				17BBCB430C0FBC713098E5D9B6465065 /* HubApi.swift */,
 			);
-			name = Hub;
 			path = Hub;
 			sourceTree = "<group>";
 		};
@@ -278,7 +274,6 @@
 				F6CF0BDE46B46B07A0AAF15D8CC92A99 /* TopKLogitsWarper.swift */,
 				099819CFD7484EC1625735D9A50D38E2 /* TopPLogitsWarper.swift */,
 			);
-			name = LogitsWarper;
 			path = LogitsWarper;
 			sourceTree = "<group>";
 		};
@@ -295,7 +290,6 @@
 			children = (
 				4006F58026636A030977C932DAAA0F3D /* WhisperKit */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -315,7 +309,6 @@
 				3BAE42676FFCDA905CE2E56CFA571774 /* TokenSampler.swift */,
 				7650F33AD05C31A69A04BFE536805A96 /* WhisperKit.swift */,
 			);
-			name = Core;
 			path = Core;
 			sourceTree = "<group>";
 		};
@@ -340,7 +333,7 @@
 		94F3D52980C87B5B937A9952C4C9C43A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */,
+				83CBEDA11DAF378F0B58667A39F14157 /* cocoa_whisper.framework */,
 				0A37E7165B9DFD10285FCC213C385270 /* Pods-cocoa-whisper_Example */,
 				5610B5BD497FA79BF0BEF917C76D4B7B /* Pods-cocoa-whisper_Tests */,
 			);
@@ -363,7 +356,6 @@
 				FD21BBCDF5238965F679CEE8D7BA0218 /* UnigramTokenizer.swift */,
 				3B0FCCAC6F8DB507E480BD57D11B6464 /* Utils.swift */,
 			);
-			name = Tokenizers;
 			path = Tokenizers;
 			sourceTree = "<group>";
 		};
@@ -415,7 +407,6 @@
 				0B14F2205F4B61D7A1E5C4CE0BD93C50 /* TensorUtils */,
 				96B2A907304187B65EE71D31F51C8D61 /* Tokenizers */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -441,7 +432,6 @@
 				0D5B4BC0790DE821C5547F153469B837 /* Generation.swift */,
 				0CA8469BA84B7FD658C44FC82D81A002 /* GenerationConfig.swift */,
 			);
-			name = Generation;
 			path = Generation;
 			sourceTree = "<group>";
 		};
@@ -528,7 +518,7 @@
 			);
 			name = "cocoa-whisper";
 			productName = cocoa_whisper;
-			productReference = 83CBEDA11DAF378F0B58667A39F14157 /* cocoa-whisper */;
+			productReference = 83CBEDA11DAF378F0B58667A39F14157 /* cocoa_whisper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -694,7 +684,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1007,7 +997,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

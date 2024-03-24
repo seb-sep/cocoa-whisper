@@ -86,7 +86,7 @@ remove_imports(pod_name + '/WhisperKit/Sources/', hf_imports)
 hub_file = pod_name + '/swift-transformers/Sources/Hub/Hub.swift'
 
 func_stub = <<~STUB
-//\t This is a stubbed out version of the original function; it is not necessary.
+//\t This is a stubbed out version of the original function; it is not necessary
 //\t for use with Whisper and the call to Bundle.module.url does not seem to work in Cocoapods
 \tstatic func fallbackTokenizerConfig(for modelType: String) -> Config? {
 \t      return nil
